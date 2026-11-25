@@ -1,0 +1,2 @@
+n_neuro,n_hx,n_ambas,n_iguales,pct_iguales,diferencia_absoluta_mediana,diferencia_absoluta_media,diferencia_absoluta_max,rho_entre_edades,r_entre_edades,n_ambas_con_aoo,fuente_neuro,fuente_hx
+388,390,387,344,88.88888888888889,0.0,0.2868217054263566,10.0,0.982965004220336,0.9865792554657452,369,"datos/neuropsicologia-casos.xlsx, Hoja1!E1; preprocesamiento celdas 6, 66 y 76","datos/hxgen.xlsx, Sheet1!B1; preprocesamiento celdas 6, 66 y 76"

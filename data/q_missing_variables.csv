@@ -1,0 +1,147 @@
+columna,etiqueta,familia,fuente,tipo_analitico,n_valido,n_faltante,pct_faltante
+neuro__genero,genero,sociodemograficas,neuropsicologia,categórica binaria,388,3,0.7672634271099744
+neuro__dx,Dx,identificacion_diagnostico,neuropsicologia,categórica nominal,388,3,0.7672634271099744
+neuro__mes_y_anio_de_nacimiento,mes y año de nacimiento,sociodemograficas,neuropsicologia,texto libre / alta cardinalidad,385,6,1.5345268542199488
+neuro__edad,EDAD,sociodemograficas,neuropsicologia,cuantitativa continua,388,3,0.7672634271099744
+neuro__idioma,IDIOMA,sociodemograficas,neuropsicologia,categórica nominal,388,3,0.7672634271099744
+neuro__otro_idoma,OTRO IDOMA,sociodemograficas,neuropsicologia,texto libre / alta cardinalidad,388,3,0.7672634271099744
+neuro__nivel_educativo,Nivel educativo,sociodemograficas,neuropsicologia,ordinal,376,15,3.836317135549872
+neuro__estado_civil,Estado civil,sociodemograficas,neuropsicologia,categórica nominal,364,27,6.90537084398977
+neuro__estado_habitacional,Estado Habitacional,sociodemograficas,neuropsicologia,categórica nominal,381,10,2.557544757033248
+neuro__nivel_de_independencia,Nivel de independencia,sociodemograficas,neuropsicologia,ordinal,386,5,1.278772378516624
+neuro__tipo_de_residencia,Tipo de residencia,sociodemograficas,neuropsicologia,categórica nominal,387,4,1.0230179028132993
+neuro__lateralidad,Lateralidad,sociodemograficas,neuropsicologia,categórica nominal,387,4,1.0230179028132993
+neuro__relacion_del_informante,Relación del Informante,informante_red_apoyo,neuropsicologia,categórica nominal,388,3,0.7672634271099744
+neuro__tiempo_anios_de_conocerce,Tiempo (años de conocerce),informante_red_apoyo,neuropsicologia,cuantitativa continua,146,245,62.65984654731458
+neuro__vive_el_informante_con_el_sujeto,¿Vive el informante con el sujeto?,informante_red_apoyo,neuropsicologia,categórica binaria,319,72,18.414322250639387
+neuro__si_el_informante_no_vive_con_el_sujeto_con_que_frecuencia_visita_personalmente_al_sujeto,"Si el informante no vive con el sujeto, ¿con qué frecuencia visita personalmente al sujeto?",informante_red_apoyo,neuropsicologia,ordinal,264,127,32.48081841432225
+neuro__si_el_informante_no_vive_con_el_sujeto_con_que_frecuencia_tiene_contacto_telefonico_con_el,"Si el informante no vive con el sujeto, ¿con qué frecuencia tiene contacto telefónico con él?",informante_red_apoyo,neuropsicologia,ordinal,263,128,32.73657289002558
+neuro__hay_miembros_afectados_de_la_familia_padres_biologicos_hermanos_consanguineos_completos_comparten_ambos_padres_o_hijos_biologicos,"¿Hay miembros afectados de la familia (padres biológicos, hermanos consanguíneos completos (comparten ambos padres), o hijos biológicos)?",historia_familiar,neuropsicologia,categórica nominal,368,23,5.882352941176471
+neuro__familiar_afectado,Familiar afectado,historia_familiar,neuropsicologia,categórica nominal,190,201,51.406649616368284
+neuro__edad_de_inicio,Edad de inicio,trazabilidad_aoo,neuropsicologia,variable auxiliar del EDA,287,104,26.59846547314578
+neuro__edad_de_inicio_actualizada,Edad de inicio actualizada,trazabilidad_aoo,neuropsicologia,variable auxiliar del EDA,47,344,87.97953964194373
+neuro__peso,Peso,antropometria,neuropsicologia,cuantitativa continua,291,100,25.575447570332482
+neuro__talla,Talla,antropometria,neuropsicologia,cuantitativa continua,340,51,13.043478260869565
+neuro__medicamento_del_sujeto_1,MEDICAMENTO DEL SUJETO 1,medicamentos,neuropsicologia,texto libre / alta cardinalidad,305,86,21.994884910485933
+neuro__medicamento_del_sujeto_2,MEDICAMENTO DEL SUJETO 2,medicamentos,neuropsicologia,texto libre / alta cardinalidad,240,151,38.61892583120205
+neuro__medicamento_del_sujeto_3,MEDICAMENTO DEL SUJETO 3,medicamentos,neuropsicologia,texto libre / alta cardinalidad,158,233,59.59079283887468
+neuro__medicamento_del_sujeto_4,MEDICAMENTO DEL SUJETO 4,medicamentos,neuropsicologia,texto libre / alta cardinalidad,109,282,72.1227621483376
+neuro__medicamento_del_sujeto_5,MEDICAMENTO DEL SUJETO 5,medicamentos,neuropsicologia,texto libre / alta cardinalidad,67,324,82.86445012787723
+neuro__medicamento_del_sujeto_6,MEDICAMENTO DEL SUJETO 6,medicamentos,neuropsicologia,texto libre / alta cardinalidad,40,351,89.769820971867
+neuro__medicamento_del_sujeto_7,MEDICAMENTO DEL SUJETO 7,medicamentos,neuropsicologia,texto libre / alta cardinalidad,25,366,93.60613810741688
+neuro__medicamento_del_sujeto_8,MEDICAMENTO DEL SUJETO 8,medicamentos,neuropsicologia,texto libre / alta cardinalidad,15,376,96.16368286445012
+neuro__medicamento_del_sujeto_9,MEDICAMENTO DEL SUJETO 9,medicamentos,neuropsicologia,texto libre / alta cardinalidad,14,377,96.41943734015345
+neuro__el_sujeto_ha_fumado_en_los_pasados_30_dias,El sujeto ha fumado en los pasados 30 días,tabaquismo,neuropsicologia,categórica binaria,378,13,3.3248081841432224
+neuro__el_sujeto_ha_fumado_mas_de_100_cigarros_cigarrillos_en_su_vida,¿El sujeto ha fumado más de 100 cigarros / cigarrillos en su vida?,tabaquismo,neuropsicologia,categórica binaria,373,18,4.603580562659847
+neuro__numero_total_de_anios_que_ha_fumado_el_sujeto_99_desconocido,Años de tabaquismo,tabaquismo,neuropsicologia,cuantitativa continua,357,34,8.695652173913043
+neuro__ataque_cardiaco_o_paro_cardiaco,Ataque cardiaco o paro cardíaco,cardiovasculares_cerebrovasculares,neuropsicologia,categórica binaria,387,4,1.0230179028132993
+neuro__fibrilacion_auricular,Fibrilación auricular,cardiovasculares_cerebrovasculares,neuropsicologia,categórica binaria,387,4,1.0230179028132993
+neuro__angioplastia_endarterectomia_stent,Angioplastía/ endarterectomía/ stent,cardiovasculares_cerebrovasculares,neuropsicologia,categórica nominal,388,3,0.7672634271099744
+neuro__bypass_cardiaco_coronario,Bypass cardíaco/coronario,cardiovasculares_cerebrovasculares,neuropsicologia,categórica binaria,388,3,0.7672634271099744
+neuro__marcapasos_y_o_desfibrilador,Marcapasos y/o desfibrilador,cardiovasculares_cerebrovasculares,neuropsicologia,categórica binaria,388,3,0.7672634271099744
+neuro__insuficiencia_cardiaca_congestiva,Insuficiencia cardíaca congestiva,cardiovasculares_cerebrovasculares,neuropsicologia,categórica binaria,387,4,1.0230179028132993
+neuro__enfermedad_cerebro_vascular_ecv,ENFERMEDAD CEREBRO-VASCULAR (ECV),cardiovasculares_cerebrovasculares,neuropsicologia,categórica binaria,387,4,1.0230179028132993
+neuro__parkinson,PARKINSON,neurologicos,neuropsicologia,categórica binaria,387,4,1.0230179028132993
+neuro__convulsiones,CONVULSIONES,neurologicos,neuropsicologia,categórica binaria,388,3,0.7672634271099744
+neuro__traumatismo_de_craneo_encefalico_tce,TRAUMATISMO DE CRÁNEO-ENCEFÁLICO (TCE),neurologicos,neuropsicologia,categórica binaria,388,3,0.7672634271099744
+neuro__diabetes,DIABETES,metabolicos_otros,neuropsicologia,categórica nominal,386,5,1.278772378516624
+neuro__cancer,CANCER,metabolicos_otros,neuropsicologia,categórica binaria,386,5,1.278772378516624
+neuro__hipercholesterolemia,Hipercholesterolemia,metabolicos_otros,neuropsicologia,categórica binaria,386,5,1.278772378516624
+neuro__hipertension_arterial,Hipertensión arterial,metabolicos_otros,neuropsicologia,categórica binaria,387,4,1.0230179028132993
+neuro__niveles_de_vitamina_d,NIVELES DE VITAMINA D,metabolicos_otros,neuropsicologia,categórica nominal,388,3,0.7672634271099744
+neuro__deficiencia_de_b12,Deficiencia de B12,metabolicos_otros,neuropsicologia,categórica binaria,388,3,0.7672634271099744
+neuro__enfermedad_tiroidea,Enfermedad tiroidea,metabolicos_otros,neuropsicologia,categórica binaria,388,3,0.7672634271099744
+neuro__artritis,Artritis,metabolicos_otros,neuropsicologia,categórica binaria,388,3,0.7672634271099744
+neuro__artrosis,Artrosis,metabolicos_otros,neuropsicologia,categórica binaria,388,3,0.7672634271099744
+neuro__osteoporosis,Osteoporosis,metabolicos_otros,neuropsicologia,categórica binaria,388,3,0.7672634271099744
+neuro__incontinencia_urinaria,Incontinencia — urinaria,metabolicos_otros,neuropsicologia,categórica binaria,387,4,1.0230179028132993
+neuro__incontinencia_fecal,Incontinencia — fecal,metabolicos_otros,neuropsicologia,categórica binaria,388,3,0.7672634271099744
+neuro__apnea_del_suenio_u_otro,Apnea del sueño U OTRO,metabolicos_otros,neuropsicologia,categórica binaria,388,3,0.7672634271099744
+neuro__trastorno_de_estres_postraumatico_tept,Trastorno de estrés postraumático (TEPT),psiquiatricos,neuropsicologia,categórica binaria,387,4,1.0230179028132993
+neuro__trastorno_bipolar,Trastorno bipolar,psiquiatricos,neuropsicologia,categórica binaria,388,3,0.7672634271099744
+neuro__esquizofrenia,Esquizofrenia,psiquiatricos,neuropsicologia,categórica binaria,387,4,1.0230179028132993
+neuro__depresion,Depresión,psiquiatricos,neuropsicologia,categórica binaria,387,4,1.0230179028132993
+neuro__ansiedad,Ansiedad,psiquiatricos,neuropsicologia,categórica binaria,388,3,0.7672634271099744
+neuro__trastorno_obsesivo_compulsivo_toc,Trastorno obsesivo-compulsivo (TOC),psiquiatricos,neuropsicologia,categórica binaria,388,3,0.7672634271099744
+neuro__trastornos_neuropsiquiatricos_del_desarrollo_por_ejemplo_trastorno_del_espectro_autista_tea_deficit_de_atencion_con_hiperactividad_tdah_dislexia,"Trastornos neuropsiquiátricos del desarrollo (por ejemplo, trastorno del espectro autista (TEA), déficit de atención con hiperactividad (TDAH), dislexia)",psiquiatricos,neuropsicologia,categórica binaria,388,3,0.7672634271099744
+neuro__estudio_cerebral_electroencefalograma_eeg,Estudio Cerebral Electroencefalograma (EEG),estudios_complementarios,neuropsicologia,categórica nominal,388,3,0.7672634271099744
+neuro__hay_valoracion_nps_anterior,¿Hay valoración NPS anterior?,metadatos_nps,neuropsicologia,categórica binaria,382,9,2.3017902813299234
+neuro__si_tiene_anteriormente_valoracion_nps_en_que_fecha_se_aplico,Si tiene anteriormente valoración NPS ¿en que fecha se aplico?,metadatos_nps,neuropsicologia,texto libre / alta cardinalidad,3,388,99.23273657289002
+neuro__mmse,MMSE,cognicion_global,neuropsicologia,cuantitativa discreta,385,6,1.5345268542199488
+neuro__cmweschler,CMWESCHLER,memoria,neuropsicologia,cuantitativa discreta,377,14,3.580562659846547
+neuro__fvsa,FVSa,fluidez_verbal,neuropsicologia,cuantitativa discreta,378,13,3.3248081841432224
+neuro__perdida_categoria_fvsa,Perdida Categoria FVSA,fluidez_verbal,neuropsicologia,cuantitativa discreta,378,13,3.3248081841432224
+neuro__perseveraciones_fvsa,Perseveraciones FVSA,fluidez_verbal,neuropsicologia,cuantitativa discreta,378,13,3.3248081841432224
+neuro__fvsc,FVSc,fluidez_verbal,neuropsicologia,cuantitativa discreta,378,13,3.3248081841432224
+neuro__perdida_categoria_fvsc,Perdida Categoria FVSC,fluidez_verbal,neuropsicologia,cuantitativa discreta,378,13,3.3248081841432224
+neuro__perseveraciones_fvsc,Perseveraciones FVSC,fluidez_verbal,neuropsicologia,cuantitativa discreta,378,13,3.3248081841432224
+neuro__fvff,FVFf,fluidez_verbal,neuropsicologia,cuantitativa discreta,375,16,4.092071611253197
+neuro__perdida_categoria_fvff,Perdida Categoria FVFf,fluidez_verbal,neuropsicologia,cuantitativa discreta,375,16,4.092071611253197
+neuro__perseveraciones_fvff,Perseveraciones FVFf,fluidez_verbal,neuropsicologia,cuantitativa discreta,375,16,4.092071611253197
+neuro__fvfa,FVFa,fluidez_verbal,neuropsicologia,cuantitativa discreta,375,16,4.092071611253197
+neuro__perdida_categoria_fvfa,Perdida Categoria FVFa,fluidez_verbal,neuropsicologia,cuantitativa discreta,375,16,4.092071611253197
+neuro__perseveraciones_fvfa,Perseveraciones FVFa,fluidez_verbal,neuropsicologia,cuantitativa discreta,375,16,4.092071611253197
+neuro__fvfs,FVFs,fluidez_verbal,neuropsicologia,cuantitativa discreta,374,17,4.3478260869565215
+neuro__perdida_categoria_fvfs,Perdida Categoria FVFs,fluidez_verbal,neuropsicologia,cuantitativa discreta,375,16,4.092071611253197
+neuro__perseveraciones_fvfs,Perseveraciones FVFs,fluidez_verbal,neuropsicologia,cuantitativa discreta,375,16,4.092071611253197
+neuro__fcrocop,FCROCOP,praxia_visuoconstruccion,neuropsicologia,cuantitativa discreta,382,9,2.3017902813299234
+neuro__fcroevo,FCROEVO,praxia_visuoconstruccion,neuropsicologia,cuantitativa discreta,377,14,3.580562659846547
+neuro__token,TOKEN,lenguaje,neuropsicologia,cuantitativa discreta,375,16,4.092071611253197
+neuro__taavrey1,TAAVREY1,memoria,neuropsicologia,cuantitativa discreta,380,11,2.813299232736573
+neuro__taavrey2,TAAVREY2,memoria,neuropsicologia,cuantitativa discreta,380,11,2.813299232736573
+neuro__taavrey3,TAAVREY3,memoria,neuropsicologia,cuantitativa discreta,380,11,2.813299232736573
+neuro__taavrey4,TAAVREY4,memoria,neuropsicologia,cuantitativa discreta,380,11,2.813299232736573
+neuro__taavrey5,TAAVREY5,memoria,neuropsicologia,cuantitativa discreta,380,11,2.813299232736573
+neuro__taavreyb1,TAAVREYB1,memoria,neuropsicologia,cuantitativa discreta,380,11,2.813299232736573
+neuro__taavrey6,TAAVREY6,memoria,neuropsicologia,cuantitativa discreta,380,11,2.813299232736573
+neuro__taavrey7,TAAVREY7,memoria,neuropsicologia,cuantitativa discreta,379,12,3.0690537084398977
+neuro__taavrey_rec_si,TAAVREY REC si,memoria,neuropsicologia,cuantitativa discreta,376,15,3.836317135549872
+neuro__taavrey_rec_no,TAAVREY REC no,memoria,neuropsicologia,cuantitativa discreta,376,15,3.836317135549872
+neuro__tbn_espontanea,TBN espontanea,lenguaje,neuropsicologia,cuantitativa discreta,380,11,2.813299232736573
+neuro__tbn_semantica,TBN semántica,lenguaje,neuropsicologia,cuantitativa discreta,380,11,2.813299232736573
+neuro__tbn_total,TBN total,lenguaje,neuropsicologia,cuantitativa discreta,380,11,2.813299232736573
+neuro__tspal,TSPAL,funcion_ejecutiva_atencion,neuropsicologia,cuantitativa discreta,366,25,6.3938618925831205
+neuro__tscol,TSCOL,funcion_ejecutiva_atencion,neuropsicologia,cuantitativa discreta,365,26,6.649616368286445
+neuro__tspalcol,TSPALCOL,funcion_ejecutiva_atencion,neuropsicologia,cuantitativa discreta,365,26,6.649616368286445
+neuro__tmta,TMTA,funcion_ejecutiva_atencion,neuropsicologia,cuantitativa discreta,360,31,7.928388746803069
+neuro__tmtb,TMTB,funcion_ejecutiva_atencion,neuropsicologia,cuantitativa discreta,344,47,12.020460358056265
+neuro__tsmydoral,TSMYDORAL,memoria_semantica_conocimiento,neuropsicologia,cuantitativa discreta,363,28,7.161125319693094
+neuro__tsmyd_escr,TSMYD ESCR,memoria_semantica_conocimiento,neuropsicologia,cuantitativa discreta,363,28,7.161125319693094
+neuro__teac,TEAC,funcion_ejecutiva_atencion,neuropsicologia,cuantitativa discreta,361,30,7.672634271099744
+neuro__benton,BENTON,memoria_semantica_conocimiento,neuropsicologia,cuantitativa discreta,365,26,6.649616368286445
+neuro__reloj,RELOJ,praxia_visuoconstruccion,neuropsicologia,cuantitativa discreta,367,24,6.138107416879795
+neuro__twiscat,TWISCAT,funcion_ejecutiva_atencion,neuropsicologia,cuantitativa discreta,368,23,5.882352941176471
+neuro__twisenp,TWISENP,funcion_ejecutiva_atencion,neuropsicologia,cuantitativa discreta,367,24,6.138107416879795
+neuro__twisep,TWISEP,funcion_ejecutiva_atencion,neuropsicologia,cuantitativa discreta,367,24,6.138107416879795
+neuro__twiscorresctas,TWISCORRESCTAS,funcion_ejecutiva_atencion,neuropsicologia,cuantitativa discreta,370,21,5.370843989769821
+neuro__quejas_subjetivas,QUEJAS SUBJETIVAS,funcional_afectivo_quejas,neuropsicologia,cuantitativa discreta,383,8,2.0460358056265986
+neuro__yesavage,YESAVAGE,funcional_afectivo_quejas,neuropsicologia,cuantitativa discreta,372,19,4.859335038363171
+neuro__barthel,BARTHEL,funcional_afectivo_quejas,neuropsicologia,cuantitativa discreta,388,3,0.7672634271099744
+neuro__lawton_y_brody,LAWTON Y BRODY,funcional_afectivo_quejas,neuropsicologia,cuantitativa discreta,388,3,0.7672634271099744
+neuro__ikatz,IKATZ,funcional_afectivo_quejas,neuropsicologia,cuantitativa discreta,388,3,0.7672634271099744
+neuro__fast,FAST,funcional_afectivo_quejas,neuropsicologia,cuantitativa discreta,388,3,0.7672634271099744
+neuro__esc_deterioroglobal,ESC DETERIOROGLOBAL,cognicion_global,neuropsicologia,ordinal,387,4,1.0230179028132993
+moca__moca,MoCA,cognicion_global,moca,cuantitativa discreta,389,2,0.5115089514066496
+hx__edad,Edad,historia_clinica_genetica,hxgen,cuantitativa continua,390,1,0.2557544757033248
+hx__ciudad_o_municipio_de_residencia,Ciudad o municipio de residencia,historia_clinica_genetica,hxgen,texto libre / alta cardinalidad,391,0,0.0
+hx__enfermedad_actual,Enfermedad actual,historia_clinica_genetica,hxgen,texto libre / alta cardinalidad,391,0,0.0
+hx__que_sintomas_presenta,¿Qué síntomas presenta?,historia_clinica_genetica,hxgen,texto libre / alta cardinalidad,391,0,0.0
+hx__el_paciente_necesita_apoyo_para_realizar_las_siguientes_tareas,El Paciente necesita apoyo para realizar las siguientes tareas,historia_clinica_genetica,hxgen,texto libre / alta cardinalidad,363,28,7.161125319693094
+hx__indique_que_estudios_previos_le_han_realizado,Indique que estudios previos le han realizado.,historia_clinica_genetica,hxgen,texto libre / alta cardinalidad,382,9,2.3017902813299234
+hx__si_le_han_realizado_estudios_previos_encontraron_hallazgos_cuales,"Si le han realizado estudios previos, ¿Encontraron hallazgos? ¿Cuales?",historia_clinica_genetica,hxgen,texto libre / alta cardinalidad,373,18,4.603580562659847
+hx__antecedentes,Antecedentes,historia_clinica_genetica,hxgen,texto libre / alta cardinalidad,292,99,25.319693094629155
+hx__actualmente_se_encuentra_en_algun_tratamiento_farmacologico,¿Actualmente se encuentra en algún tratamiento farmacológico?,historia_clinica_genetica,hxgen,categórica nominal,390,1,0.2557544757033248
+hx__si_la_respuesta_anterior_fue_si_que_medicamentos_esta_consumiendo,"Si la respuesta anterior fue SI, ¿Qué medicamentos está consumiendo?",historia_clinica_genetica,hxgen,texto libre / alta cardinalidad,323,68,17.391304347826086
+hx__usted_fuma,¿Usted fuma?,historia_clinica_genetica,hxgen,categórica nominal,391,0,0.0
+hx__si_respuesta_anterior_fue_afirmativa_hace_cuantos_anios_fuma,"Si respuesta anterior fue afirmativa, ¿Hace cuantos años fuma?",historia_clinica_genetica,hxgen,texto libre / alta cardinalidad,15,376,96.16368286445012
+hx__con_que_frecuencia_consume_alcohol,¿Con que frecuencia consume alcohol?,historia_clinica_genetica,hxgen,categórica nominal,389,2,0.5115089514066496
+hx__le_han_realizado_algun_procedimiento_quirurgico,¿Le han realizado algún procedimiento quirúrgico?,historia_clinica_genetica,hxgen,categórica nominal,391,0,0.0
+hx__si_la_respuesta_anterior_fue_si_que_cirugia_le_han_realizado,Si la respuesta anterior fue SI. ¿Qué cirugía le han realizado?,historia_clinica_genetica,hxgen,texto libre / alta cardinalidad,74,317,81.07416879795396
+hx__en_que_fecha_le_realizaron_la_cirugia,¿En que fecha le realizaron la cirugía?,historia_clinica_genetica,hxgen,texto libre / alta cardinalidad,57,334,85.42199488491049
+hx__sufre_de_algun_tipo_de_alergia,¿Sufre de algún tipo de alergia?,historia_clinica_genetica,hxgen,categórica nominal,391,0,0.0
+hx__si_la_respuesta_anterior_es_si_a_que_es_alergico,Si la respuesta anterior es SI. ¿A que es alérgico?,historia_clinica_genetica,hxgen,categórica nominal,12,379,96.9309462915601
+hx__peso_en_kilogramo,Peso en Kilogramo,historia_clinica_genetica,hxgen,cuantitativa continua,286,105,26.854219948849106
+hx__altura_en_centimetro,Altura en centímetro,historia_clinica_genetica,hxgen,cuantitativa continua,339,52,13.29923273657289
+hx__alguien_mas_en_su_familia_tiene_o_tuvo_alzheimer,¿Alguien más en su familia tiene o tuvo Alzheimer?,historia_clinica_genetica,hxgen,categórica nominal,361,30,7.672634271099744
+hx__si_la_respuesta_anterior_es_afirmativa_cuantas_personas_han_tenido_o_tienen_alzheimer_en_su_familia,Si la respuesta anterior es afirmativa. ¿Cuántas personas han tenido o tienen Alzheimer en su familia ?,historia_clinica_genetica,hxgen,cuantitativa discreta,171,220,56.265984654731454
+hx__que_parentesco_tienen_con_usted,¿Qué parentesco tienen con usted?,historia_clinica_genetica,hxgen,texto libre / alta cardinalidad,145,246,62.915601023017906

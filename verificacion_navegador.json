@@ -1,0 +1,42 @@
+[
+  {
+    "pagina": "inicio",
+    "carga_correcta": true,
+    "texto_esperado": "Cifras clave"
+  },
+  {
+    "pagina": "univariado",
+    "carga_correcta": true,
+    "texto_esperado": "Explorador de variables"
+  },
+  {
+    "pagina": "bivariado",
+    "carga_correcta": true,
+    "texto_esperado": "Estabilidad entre imputaciones"
+  },
+  {
+    "pagina": "pca",
+    "carga_correcta": true,
+    "texto_esperado": "PCA 3D sin identificadores"
+  },
+  {
+    "pagina": "grm",
+    "carga_correcta": true,
+    "texto_esperado": "Pares de similitud alta"
+  },
+  {
+    "pagina": "loco",
+    "carga_correcta": true,
+    "texto_esperado": "Componentes de varianza"
+  },
+  {
+    "pagina": "gwas",
+    "carga_correcta": true,
+    "texto_esperado": "Manhattan plot interactivo"
+  },
+  {
+    "pagina": "sensibilidad",
+    "carga_correcta": true,
+    "texto_esperado": "Sensibilidad genética a AOO imputada"
+  }
+]

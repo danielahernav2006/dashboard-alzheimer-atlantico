@@ -1,0 +1,4 @@
+variable,participacion,evidencia,estado
+Nivel de independencia,"No identificada, ni directa ni derivada",Mismos siete predictores en código/metadatos; constructor funciones\funciones_imputacion.py:43-100; institucionalizado usa vivienda/residencia,Verificado en código disponible
+"Familiares afectados, pregunta estructurada","Sí, indirectamente mediante antec_familiar","funciones\funciones_imputacion.py:61-67; 01_preprocesamiento_actualizado(10).ipynb, celdas 95 y 108",Verificado en código y metadatos
+TBN espontánea,"No identificada, ni directa ni derivada",Mismos siete predictores en código/metadatos; constructor completo funciones\funciones_imputacion.py:43-100,Verificado en código disponible

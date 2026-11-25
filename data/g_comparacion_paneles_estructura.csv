@@ -1,0 +1,3 @@
+panel,archivo,sha256,muestras,muestras_unicas,variantes_iniciales,variantes_unicas,duplicados,snp_simples,snp_autosomicos,inserciones,deleciones,otros_no_snp,no_autosomicos,faltantes_pct,metadatos,indels
+anterior,datos\exosoms-qc-full.txt,d7c4aba565dbda31ffa340045f4ca96d5b8776c56114ddc3087999fd7e70ffc4,755,755,149109,149109,0,130161,128757,8388,10560,0,1404,0.0154240955047155,"[""Patient ID""]",
+nuevo,datos\functional-variants.txt,bfcad27842c424b092bfbc442f37832f460cf8697ebd20faf02899c36180d4c1,755,755,18444,18444,0,18444,18391,0,0,0,53,0.0137124370868129,"['Samples', 'Patient ID']",0.0

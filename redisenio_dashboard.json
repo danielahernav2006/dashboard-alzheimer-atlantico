@@ -1,0 +1,41 @@
+{
+  "app": "dashboard_alzheimer/dashboard_alzheimer",
+  "url_local": "http://127.0.0.1:8502",
+  "archivos_modificados": [
+    "app.py",
+    "components/ui.py",
+    "utils/theme.py",
+    "assets/css/style.css",
+    ".streamlit/config.toml",
+    "README.md",
+    "pages/asoc_gwas.py",
+    "pages/asoc_sensibilidad.py",
+    "pages/datos_bivariado.py",
+    "pages/datos_univariado.py",
+    "pages/gen_pca.py",
+    "pages/inicio.py",
+    "assets/wordmark.svg",
+    "tests/verify_dashboard.py"
+  ],
+  "paginas_PASS": 18,
+  "interacciones_PASS": 12,
+  "vistas_responsive_PASS": 10,
+  "anchos": [
+    1440,
+    900
+  ],
+  "contrastes_texto_AA": true,
+  "fuentes_remotas_bloqueadas_prueba": true,
+  "respaldo_legible_sin_desbordamiento": true,
+  "datos_y_notebooks_intactos": 92,
+  "analisis_reejecutados": false,
+  "capturas": [
+    "verificacion_visual_redisenio/portada_1440.png",
+    "verificacion_visual_redisenio/univariado_1440.png",
+    "verificacion_visual_redisenio/portada_900.png",
+    "verificacion_visual_redisenio/pca_3d_1440.png",
+    "verificacion_visual_redisenio/qq_900.png"
+  ],
+  "pendientes_del_redisenio": [],
+  "estado": "Revertido por solicitud del usuario; ver restauracion_diseno.json"
+}

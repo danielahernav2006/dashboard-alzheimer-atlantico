@@ -1,0 +1,17 @@
+{
+  "controles_PASS": [
+    "Univariado: cambiar a variable categórica",
+    "Univariado: alternar entre observada y MI",
+    "Bivariado: filtro FDR devuelve 25 variables",
+    "Bivariado: educación y estabilidad MI",
+    "Bivariado: ajustar extensión del ranking",
+    "PCA: cambiar ejes a PC4/PC5; 3D y diagnósticos presentes",
+    "Preparación: consulta de rs7412",
+    "LOCO: seleccionar chr22",
+    "GWAS: chr19 y búsqueda rs7412",
+    "GWAS: activar línea de referencia sin alterar resultados",
+    "Variantes: ficha rs7412 y tabla APOE",
+    "Sensibilidad: comparación MI para rs7412"
+  ],
+  "FAIL": []
+}

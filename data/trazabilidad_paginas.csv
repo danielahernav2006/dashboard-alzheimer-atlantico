@@ -1,0 +1,5 @@
+Páginas,Exportaciones,Notebook definitivo
+Inicio; Cohorte; Calidad,salidas,01_preprocesamiento_definitivo.ipynb
+Univariado,salidas/univariado_mi,02_univariado_definitivo.ipynb
+Bivariado; Covariables,salidas/bivariado_mi_revisado,03_bivariado_definitivo.ipynb
+Genética; PCA; GRM; LOCO; GWAS; Sensibilidad; APOE,salidas/genetica_panel_nuevo_MI_integrado,04_preparacion_genetica_definitivo.ipynb

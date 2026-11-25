@@ -1,0 +1,9 @@
+decision,n
+conservar: categoría estructural válida,1
+conservar: categoría válida,242
+convertir a NaN: código inválido confirmado,5
+convertir a NaN: desconocido/no registrado,10
+convertir a NaN: incompatible con dominio,2
+convertir a NaN: no aplica estructural,1
+revisar: código no documentado,3
+revisar: etiqueta ambigua,3

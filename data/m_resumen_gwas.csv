@@ -1,0 +1,2 @@
+n_pacientes,n_snps_probados,n_pcs,covariables,metodo,h2_loco_min,h2_loco_max,sigma_g2_loco_min,sigma_g2_loco_max,sigma_e2_loco_min,sigma_e2_loco_max,lambda_GC,umbral_bonferroni,n_bonferroni,n_fdr,snp_menor_p,beta,direccion
+334,18391,5,Sexo; educación agrupada (factor); PC1–PC5,LOCO / REML nulo / Wald bilateral GLS,0.3137575238818145,0.4805764834009884,18.338081441289955,28.17871906360245,30.456524309491183,40.108585317201886,1.0247967469204369,2.7187211135881684e-06,0,0,17:5086956-A-C,-7.824679502797646,AOO menor

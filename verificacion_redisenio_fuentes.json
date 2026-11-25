@@ -1,0 +1,227 @@
+{
+  "paginas": [
+    {
+      "width": 900,
+      "scrollWidth": 900,
+      "bodyWidth": 900,
+      "charts": [],
+      "nav": [
+        {
+          "text": "home\nPortada",
+          "width": 196,
+          "scrollWidth": 196
+        },
+        {
+          "text": "psychology\nPregunta y objetivos",
+          "width": 196,
+          "scrollWidth": 196
+        },
+        {
+          "text": "history_edu\nLiteratura",
+          "width": 196,
+          "scrollWidth": 196
+        },
+        {
+          "text": "groups\nCohorte",
+          "width": 196,
+          "scrollWidth": 196
+        },
+        {
+          "text": "fact_check\nCalidad clínica",
+          "width": 196,
+          "scrollWidth": 196
+        },
+        {
+          "text": "bar_chart\nUnivariado",
+          "width": 196,
+          "scrollWidth": 196
+        },
+        {
+          "text": "scatter_plot\nBivariado",
+          "width": 196,
+          "scrollWidth": 196
+        },
+        {
+          "text": "genetics\nPanel genético",
+          "width": 196,
+          "scrollWidth": 196
+        },
+        {
+          "text": "bubble_chart\nPCA",
+          "width": 196,
+          "scrollWidth": 196
+        },
+        {
+          "text": "grid_on\nGRM",
+          "width": 196,
+          "scrollWidth": 196
+        },
+        {
+          "text": "call_split\nLOCO",
+          "width": 196,
+          "scrollWidth": 196
+        },
+        {
+          "text": "tune\nCovariables",
+          "width": 196,
+          "scrollWidth": 196
+        },
+        {
+          "text": "functions\nModelos LMM",
+          "width": 196,
+          "scrollWidth": 196
+        },
+        {
+          "text": "insights\nGWAS observado",
+          "width": 196,
+          "scrollWidth": 196
+        },
+        {
+          "text": "compare_arrows\nSensibilidad",
+          "width": 196,
+          "scrollWidth": 196
+        },
+        {
+          "text": "biotech\nVariantes y APOE",
+          "width": 196,
+          "scrollWidth": 196
+        },
+        {
+          "text": "flag\nConclusiones",
+          "width": 196,
+          "scrollWidth": 196
+        },
+        {
+          "text": "account_tree\nMétodo y fuentes",
+          "width": 196,
+          "scrollWidth": 196
+        }
+      ],
+      "fonts": [
+        {
+          "family": "KaTeX_AMS",
+          "status": "unloaded"
+        },
+        {
+          "family": "KaTeX_Caligraphic",
+          "status": "unloaded"
+        },
+        {
+          "family": "KaTeX_Caligraphic",
+          "status": "unloaded"
+        },
+        {
+          "family": "KaTeX_Fraktur",
+          "status": "unloaded"
+        },
+        {
+          "family": "KaTeX_Fraktur",
+          "status": "unloaded"
+        },
+        {
+          "family": "KaTeX_Main",
+          "status": "unloaded"
+        },
+        {
+          "family": "KaTeX_Main",
+          "status": "unloaded"
+        },
+        {
+          "family": "KaTeX_Main",
+          "status": "unloaded"
+        },
+        {
+          "family": "KaTeX_Main",
+          "status": "unloaded"
+        },
+        {
+          "family": "KaTeX_Math",
+          "status": "unloaded"
+        },
+        {
+          "family": "KaTeX_Math",
+          "status": "unloaded"
+        },
+        {
+          "family": "KaTeX_SansSerif",
+          "status": "unloaded"
+        },
+        {
+          "family": "KaTeX_SansSerif",
+          "status": "unloaded"
+        },
+        {
+          "family": "KaTeX_SansSerif",
+          "status": "unloaded"
+        },
+        {
+          "family": "KaTeX_Script",
+          "status": "unloaded"
+        },
+        {
+          "family": "KaTeX_Size1",
+          "status": "unloaded"
+        },
+        {
+          "family": "KaTeX_Size2",
+          "status": "unloaded"
+        },
+        {
+          "family": "KaTeX_Size3",
+          "status": "unloaded"
+        },
+        {
+          "family": "KaTeX_Size4",
+          "status": "unloaded"
+        },
+        {
+          "family": "KaTeX_Typewriter",
+          "status": "unloaded"
+        },
+        {
+          "family": "Source Code Pro",
+          "status": "error"
+        },
+        {
+          "family": "Source Code Pro",
+          "status": "unloaded"
+        },
+        {
+          "family": "Source Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "Source Sans",
+          "status": "unloaded"
+        },
+        {
+          "family": "Source Serif",
+          "status": "unloaded"
+        },
+        {
+          "family": "Source Serif",
+          "status": "unloaded"
+        },
+        {
+          "family": "Material Symbols Rounded",
+          "status": "error"
+        }
+      ],
+      "mainWidth": 634,
+      "pagina": "portada",
+      "ancho": 900,
+      "carga_correcta": true,
+      "sin_titulos_indefinidos": true,
+      "sin_desbordamiento_horizontal": true
+    }
+  ],
+  "fuentes_respaldo": {
+    "fontReady": "loaded",
+    "instrumentDisponible": true,
+    "serifDisponible": true,
+    "scrollWidth": 900,
+    "width": 900,
+    "titleHeight": 154.265625,
+    "fuentesRegistradas": []
+  }
+}

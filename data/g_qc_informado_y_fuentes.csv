@@ -1,0 +1,12 @@
+panel,parametro,informado,fuente,estado
+anterior,MAF,"eliminar <0,05","Notebook de referencia, sección 5.1; no log Golden Helix adjunto",Documentado históricamente; muestra proveedor no certificada
+anterior,Call rate,"eliminar <0,90","Notebook de referencia, sección 5.1; no log Golden Helix adjunto",Documentado históricamente; muestra proveedor no certificada
+anterior,HWE,eliminar p<1e-6,"Notebook de referencia, sección 5.1; no log Golden Helix adjunto",Documentado históricamente; muestra proveedor no certificada
+anterior,Número alelos,eliminar >2,"Notebook de referencia, sección 5.1; no log Golden Helix adjunto",Documentado históricamente; muestra proveedor no certificada
+anterior,LD,"50 / 5 / r²=0,5 / CHM","Notebook de referencia, sección 5.1; no log Golden Helix adjunto",Documentado históricamente; muestra proveedor no certificada
+nuevo,MAF,">0,01",Comunicación del investigador en esta actualización,"Informado, contrastado empíricamente sin certificar muestra proveedor"
+nuevo,Call rate,No disponible,Falta informe Golden Helix del panel functional-variants.txt,No verificado
+nuevo,HWE,No disponible,Falta informe Golden Helix del panel functional-variants.txt,No verificado
+nuevo,Número alelos,No disponible,Falta informe Golden Helix del panel functional-variants.txt,No verificado
+nuevo,LD,No disponible,Falta informe Golden Helix del panel functional-variants.txt,No verificado
+nuevo,Ensamblaje,Compatible GRCh37; falta certificado,Falta informe Golden Helix del panel functional-variants.txt,No verificado

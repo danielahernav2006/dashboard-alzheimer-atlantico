@@ -1,0 +1,4 @@
+match_hxgen,match_neuro,match_moca,match_aoo_revisada,n
+True,True,True,True,387
+True,False,True,False,3
+True,True,False,True,1

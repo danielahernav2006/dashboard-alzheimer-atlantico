@@ -1,0 +1,128 @@
+[
+  {
+    "pagina": "asoc_covariables.py",
+    "errores": [],
+    "tablas": 4,
+    "graficas": 3,
+    "selectores": 0
+  },
+  {
+    "pagina": "asoc_gwas.py",
+    "errores": [],
+    "tablas": 1,
+    "graficas": 2,
+    "selectores": 1
+  },
+  {
+    "pagina": "asoc_modelos.py",
+    "errores": [],
+    "tablas": 2,
+    "graficas": 0,
+    "selectores": 0
+  },
+  {
+    "pagina": "asoc_sensibilidad.py",
+    "errores": [],
+    "tablas": 5,
+    "graficas": 7,
+    "selectores": 1
+  },
+  {
+    "pagina": "asoc_variantes.py",
+    "errores": [],
+    "tablas": 2,
+    "graficas": 1,
+    "selectores": 1
+  },
+  {
+    "pagina": "cierre_conclusiones.py",
+    "errores": [],
+    "tablas": 2,
+    "graficas": 0,
+    "selectores": 0
+  },
+  {
+    "pagina": "cierre_metodologia.py",
+    "errores": [],
+    "tablas": 2,
+    "graficas": 0,
+    "selectores": 0
+  },
+  {
+    "pagina": "contexto_literatura.py",
+    "errores": [],
+    "tablas": 0,
+    "graficas": 0,
+    "selectores": 0
+  },
+  {
+    "pagina": "contexto_problema.py",
+    "errores": [],
+    "tablas": 0,
+    "graficas": 1,
+    "selectores": 0
+  },
+  {
+    "pagina": "datos_bivariado.py",
+    "errores": [],
+    "tablas": 10,
+    "graficas": 2,
+    "selectores": 1
+  },
+  {
+    "pagina": "datos_calidad.py",
+    "errores": [],
+    "tablas": 5,
+    "graficas": 7,
+    "selectores": 0
+  },
+  {
+    "pagina": "datos_cohorte.py",
+    "errores": [],
+    "tablas": 4,
+    "graficas": 1,
+    "selectores": 0
+  },
+  {
+    "pagina": "datos_univariado.py",
+    "errores": [],
+    "tablas": 8,
+    "graficas": 3,
+    "selectores": 2
+  },
+  {
+    "pagina": "gen_grm.py",
+    "errores": [],
+    "tablas": 3,
+    "graficas": 4,
+    "selectores": 0
+  },
+  {
+    "pagina": "gen_loco.py",
+    "errores": [],
+    "tablas": 3,
+    "graficas": 4,
+    "selectores": 0
+  },
+  {
+    "pagina": "gen_pca.py",
+    "errores": [],
+    "tablas": 3,
+    "graficas": 5,
+    "selectores": 2
+  },
+  {
+    "pagina": "gen_preparacion.py",
+    "errores": [],
+    "tablas": 5,
+    "graficas": 6,
+    "selectores": 0
+  },
+  {
+    "pagina": "inicio.py",
+    "errores": [],
+    "tablas": 0,
+    "graficas": 0,
+    "selectores": 0
+  }
+]

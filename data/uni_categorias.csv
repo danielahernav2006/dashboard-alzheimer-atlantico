@@ -1,0 +1,252 @@
+columna,categoria,n,pct_total
+neuro__genero,Femenino,259,66.24040920716112
+neuro__genero,Masculino,129,32.9923273657289
+neuro__genero,Faltante,3,0.7672634271099744
+neuro__dx,AD+,388,99.23273657289002
+neuro__dx,Faltante,3,0.7672634271099744
+neuro__idioma,Español,388,99.23273657289002
+neuro__idioma,Faltante,3,0.7672634271099744
+neuro__nivel_educativo,Primaria,182,46.547314578005114
+neuro__nivel_educativo,Preparatoria / bachillerato o GED,90,23.017902813299234
+neuro__nivel_educativo,No escolarizada,68,17.391304347826086
+neuro__nivel_educativo,Licenciatura,33,8.439897698209718
+neuro__nivel_educativo,Faltante,15,3.836317135549872
+neuro__nivel_educativo,Maestría,2,0.5115089514066496
+neuro__nivel_educativo,Doctorado,1,0.2557544757033248
+neuro__estado_civil,Casado,158,40.40920716112532
+neuro__estado_civil,Viudo,122,31.202046035805626
+neuro__estado_civil,Soltero (nunca casado o matrimonio anulado),59,15.089514066496164
+neuro__estado_civil,Faltante,27,6.90537084398977
+neuro__estado_civil,Separado,21,5.370843989769821
+neuro__estado_civil,Divorciado,4,1.0230179028132993
+neuro__estado_habitacional,"Vive con otra persona: familiar, amigo o compañero de cuarto",119,30.434782608695652
+neuro__estado_habitacional,Vive con un grupo de personas (familiares o no) en una residencia privada,95,24.296675191815858
+neuro__estado_habitacional,Vive con otra persona: esposo o pareja,93,23.785166240409207
+neuro__estado_habitacional,"Vive en una residencia de atención especializada (de asistencia de actividades de la vida diaria, residencia para adultos mayores, convento, o asilo de ancianos)",60,15.345268542199488
+neuro__estado_habitacional,Faltante,10,2.557544757033248
+neuro__estado_habitacional,Vive solo,9,2.3017902813299234
+neuro__estado_habitacional,"Vive con su cuidador, quien no es su esposo/pareja, familiar o amigo",5,1.278772378516624
+neuro__nivel_de_independencia,Requiere asistencia para actividades complejas,209,53.452685421994886
+neuro__nivel_de_independencia,Es completamente dependiente,83,21.22762148337596
+neuro__nivel_de_independencia,Es capaz de vivir independientemente,49,12.531969309462916
+neuro__nivel_de_independencia,Requiere asistencia para actividades básicas,45,11.508951406649617
+neuro__nivel_de_independencia,Faltante,5,1.278772378516624
+neuro__tipo_de_residencia,"Residencia privada (departamento, condominio, casa)",327,83.63171355498721
+neuro__tipo_de_residencia,"Hospital, hospicio, asilo de ancianos, residencia de cuidados médicos especializados",58,14.83375959079284
+neuro__tipo_de_residencia,Faltante,4,1.0230179028132993
+neuro__tipo_de_residencia,"Residencia para adultos mayores, casa de asistencia",2,0.5115089514066496
+neuro__lateralidad,Diestro,383,97.9539641943734
+neuro__lateralidad,Faltante,4,1.0230179028132993
+neuro__lateralidad,Zurdo,4,1.0230179028132993
+neuro__relacion_del_informante,"Hijo (consanguíneo, hijastro, adoptado)",172,43.989769820971865
+neuro__relacion_del_informante,Paciente,70,17.902813299232736
+neuro__relacion_del_informante,"Amigo, vecino o conocido de la familia/amigos/ trabajo o de la comunidad (por ejemplo, de la iglesia).",62,15.856777493606138
+neuro__relacion_del_informante,"Esposo(a), pareja, compañero (incluyendo exesposo(a), ex-pareja, prometido(a), novio(a))",38,9.718670076726342
+neuro__relacion_del_informante,"Otro familiar (consanguíneo, adquirido por el matrimonio, adoptado)",38,9.718670076726342
+neuro__relacion_del_informante,"Hermano (consanguíneo, hermanastro, adoptado)",8,2.0460358056265986
+neuro__relacion_del_informante,Faltante,3,0.7672634271099744
+neuro__vive_el_informante_con_el_sujeto,Sí,261,66.75191815856778
+neuro__vive_el_informante_con_el_sujeto,Faltante,72,18.414322250639387
+neuro__vive_el_informante_con_el_sujeto,No,58,14.83375959079284
+neuro__si_el_informante_no_vive_con_el_sujeto_con_que_frecuencia_visita_personalmente_al_sujeto,Diario,242,61.892583120204606
+neuro__si_el_informante_no_vive_con_el_sujeto_con_que_frecuencia_visita_personalmente_al_sujeto,Faltante,127,32.48081841432225
+neuro__si_el_informante_no_vive_con_el_sujeto_con_que_frecuencia_visita_personalmente_al_sujeto,Al menos tres veces por semana,12,3.0690537084398977
+neuro__si_el_informante_no_vive_con_el_sujeto_con_que_frecuencia_visita_personalmente_al_sujeto,Semanalmente,6,1.5345268542199488
+neuro__si_el_informante_no_vive_con_el_sujeto_con_que_frecuencia_visita_personalmente_al_sujeto,Al menos tres veces al mes,2,0.5115089514066496
+neuro__si_el_informante_no_vive_con_el_sujeto_con_que_frecuencia_visita_personalmente_al_sujeto,Menos de una vez al mes,1,0.2557544757033248
+neuro__si_el_informante_no_vive_con_el_sujeto_con_que_frecuencia_visita_personalmente_al_sujeto,Mensualmente,1,0.2557544757033248
+neuro__si_el_informante_no_vive_con_el_sujeto_con_que_frecuencia_tiene_contacto_telefonico_con_el,Diario,246,62.915601023017906
+neuro__si_el_informante_no_vive_con_el_sujeto_con_que_frecuencia_tiene_contacto_telefonico_con_el,Faltante,128,32.73657289002558
+neuro__si_el_informante_no_vive_con_el_sujeto_con_que_frecuencia_tiene_contacto_telefonico_con_el,Al menos tres veces por semana,13,3.3248081841432224
+neuro__si_el_informante_no_vive_con_el_sujeto_con_que_frecuencia_tiene_contacto_telefonico_con_el,Semanalmente Al menos tres veces al mes,3,0.7672634271099744
+neuro__si_el_informante_no_vive_con_el_sujeto_con_que_frecuencia_tiene_contacto_telefonico_con_el,Mensualmente,1,0.2557544757033248
+neuro__hay_miembros_afectados_de_la_familia_padres_biologicos_hermanos_consanguineos_completos_comparten_ambos_padres_o_hijos_biologicos,No,232,59.33503836317136
+neuro__hay_miembros_afectados_de_la_familia_padres_biologicos_hermanos_consanguineos_completos_comparten_ambos_padres_o_hijos_biologicos,Sí,135,34.52685421994885
+neuro__hay_miembros_afectados_de_la_familia_padres_biologicos_hermanos_consanguineos_completos_comparten_ambos_padres_o_hijos_biologicos,Faltante,23,5.882352941176471
+neuro__hay_miembros_afectados_de_la_familia_padres_biologicos_hermanos_consanguineos_completos_comparten_ambos_padres_o_hijos_biologicos,NO,1,0.2557544757033248
+neuro__familiar_afectado,Faltante,201,51.406649616368284
+neuro__familiar_afectado,0,59,15.089514066496164
+neuro__familiar_afectado,Hermanos,59,15.089514066496164
+neuro__familiar_afectado,Padres,31,7.928388746803069
+neuro__familiar_afectado,Dos,19,4.859335038363171
+neuro__familiar_afectado,Tios,11,2.813299232736573
+neuro__familiar_afectado,Abuelos,5,1.278772378516624
+neuro__familiar_afectado,2022-02-01 00:00:00,2,0.5115089514066496
+neuro__familiar_afectado,1 Y 2,1,0.2557544757033248
+neuro__familiar_afectado,"1, 2, 4",1,0.2557544757033248
+neuro__familiar_afectado,1-2,1,0.2557544757033248
+neuro__familiar_afectado,2-3,1,0.2557544757033248
+neuro__edad_de_inicio_actualizada,Faltante,344,87.97953964194373
+neuro__edad_de_inicio_actualizada,77,4,1.0230179028132993
+neuro__edad_de_inicio_actualizada,75,4,1.0230179028132993
+neuro__edad_de_inicio_actualizada,83,3,0.7672634271099744
+neuro__edad_de_inicio_actualizada,67,3,0.7672634271099744
+neuro__edad_de_inicio_actualizada,74,3,0.7672634271099744
+neuro__edad_de_inicio_actualizada,79,3,0.7672634271099744
+neuro__edad_de_inicio_actualizada,72,3,0.7672634271099744
+neuro__edad_de_inicio_actualizada,65,3,0.7672634271099744
+neuro__edad_de_inicio_actualizada,78,2,0.5115089514066496
+neuro__edad_de_inicio_actualizada,82,2,0.5115089514066496
+neuro__edad_de_inicio_actualizada,73,2,0.5115089514066496
+neuro__edad_de_inicio_actualizada,60,2,0.5115089514066496
+neuro__edad_de_inicio_actualizada,69,2,0.5115089514066496
+neuro__edad_de_inicio_actualizada,90,2,0.5115089514066496
+neuro__edad_de_inicio_actualizada,80,2,0.5115089514066496
+neuro__edad_de_inicio_actualizada,66,1,0.2557544757033248
+neuro__edad_de_inicio_actualizada,63,1,0.2557544757033248
+neuro__edad_de_inicio_actualizada,58,1,0.2557544757033248
+neuro__edad_de_inicio_actualizada,70,1,0.2557544757033248
+neuro__edad_de_inicio_actualizada,95,1,0.2557544757033248
+neuro__edad_de_inicio_actualizada,68,1,0.2557544757033248
+neuro__edad_de_inicio_actualizada,84,1,0.2557544757033248
+neuro__el_sujeto_ha_fumado_en_los_pasados_30_dias,No,374,95.65217391304348
+neuro__el_sujeto_ha_fumado_en_los_pasados_30_dias,Faltante,13,3.3248081841432224
+neuro__el_sujeto_ha_fumado_en_los_pasados_30_dias,Sí,4,1.0230179028132993
+neuro__el_sujeto_ha_fumado_mas_de_100_cigarros_cigarrillos_en_su_vida,No,276,70.58823529411765
+neuro__el_sujeto_ha_fumado_mas_de_100_cigarros_cigarrillos_en_su_vida,Sí,97,24.808184143222505
+neuro__el_sujeto_ha_fumado_mas_de_100_cigarros_cigarrillos_en_su_vida,Faltante,18,4.603580562659847
+neuro__ataque_cardiaco_o_paro_cardiaco,No,381,97.44245524296676
+neuro__ataque_cardiaco_o_paro_cardiaco,Sí,6,1.5345268542199488
+neuro__ataque_cardiaco_o_paro_cardiaco,Faltante,4,1.0230179028132993
+neuro__fibrilacion_auricular,0,381,97.44245524296676
+neuro__fibrilacion_auricular,1,6,1.5345268542199488
+neuro__fibrilacion_auricular,Faltante,4,1.0230179028132993
+neuro__angioplastia_endarterectomia_stent,No,388,99.23273657289002
+neuro__angioplastia_endarterectomia_stent,Faltante,3,0.7672634271099744
+neuro__bypass_cardiaco_coronario,0,388,99.23273657289002
+neuro__bypass_cardiaco_coronario,Faltante,3,0.7672634271099744
+neuro__marcapasos_y_o_desfibrilador,0,383,97.9539641943734
+neuro__marcapasos_y_o_desfibrilador,1,5,1.278772378516624
+neuro__marcapasos_y_o_desfibrilador,Faltante,3,0.7672634271099744
+neuro__insuficiencia_cardiaca_congestiva,0,384,98.20971867007673
+neuro__insuficiencia_cardiaca_congestiva,Faltante,4,1.0230179028132993
+neuro__insuficiencia_cardiaca_congestiva,1,3,0.7672634271099744
+neuro__enfermedad_cerebro_vascular_ecv,0,377,96.41943734015345
+neuro__enfermedad_cerebro_vascular_ecv,1,10,2.557544757033248
+neuro__enfermedad_cerebro_vascular_ecv,Faltante,4,1.0230179028132993
+neuro__parkinson,0,385,98.46547314578005
+neuro__parkinson,Faltante,4,1.0230179028132993
+neuro__parkinson,1,2,0.5115089514066496
+neuro__convulsiones,0,384,98.20971867007673
+neuro__convulsiones,1,4,1.0230179028132993
+neuro__convulsiones,Faltante,3,0.7672634271099744
+neuro__traumatismo_de_craneo_encefalico_tce,0,388,99.23273657289002
+neuro__traumatismo_de_craneo_encefalico_tce,Faltante,3,0.7672634271099744
+neuro__diabetes,No,325,83.12020460358056
+neuro__diabetes,Tipo 1,32,8.184143222506394
+neuro__diabetes,Tipo 2,28,7.161125319693094
+neuro__diabetes,Faltante,5,1.278772378516624
+neuro__diabetes,"Otro tipo (diabetes insípida, diabetes autoinmune latente/tipo 1.5, diabetes gestacional)",1,0.2557544757033248
+neuro__cancer,No,380,97.18670076726343
+neuro__cancer,Sí,6,1.5345268542199488
+neuro__cancer,Faltante,5,1.278772378516624
+neuro__hipercholesterolemia,0,383,97.9539641943734
+neuro__hipercholesterolemia,Faltante,5,1.278772378516624
+neuro__hipercholesterolemia,1,3,0.7672634271099744
+neuro__hipertension_arterial,1,213,54.47570332480819
+neuro__hipertension_arterial,0,174,44.50127877237852
+neuro__hipertension_arterial,Faltante,4,1.0230179028132993
+neuro__niveles_de_vitamina_d,No,388,99.23273657289002
+neuro__niveles_de_vitamina_d,Faltante,3,0.7672634271099744
+neuro__deficiencia_de_b12,0,387,98.9769820971867
+neuro__deficiencia_de_b12,Faltante,3,0.7672634271099744
+neuro__deficiencia_de_b12,1,1,0.2557544757033248
+neuro__enfermedad_tiroidea,0,365,93.35038363171356
+neuro__enfermedad_tiroidea,1,23,5.882352941176471
+neuro__enfermedad_tiroidea,Faltante,3,0.7672634271099744
+neuro__artritis,0,386,98.72122762148338
+neuro__artritis,Faltante,3,0.7672634271099744
+neuro__artritis,1,2,0.5115089514066496
+neuro__artrosis,0,363,92.8388746803069
+neuro__artrosis,1,25,6.3938618925831205
+neuro__artrosis,Faltante,3,0.7672634271099744
+neuro__osteoporosis,0,378,96.67519181585678
+neuro__osteoporosis,1,10,2.557544757033248
+neuro__osteoporosis,Faltante,3,0.7672634271099744
+neuro__incontinencia_urinaria,0,385,98.46547314578005
+neuro__incontinencia_urinaria,Faltante,4,1.0230179028132993
+neuro__incontinencia_urinaria,1,2,0.5115089514066496
+neuro__incontinencia_fecal,0,387,98.9769820971867
+neuro__incontinencia_fecal,Faltante,3,0.7672634271099744
+neuro__incontinencia_fecal,1,1,0.2557544757033248
+neuro__apnea_del_suenio_u_otro,0,383,97.9539641943734
+neuro__apnea_del_suenio_u_otro,1,5,1.278772378516624
+neuro__apnea_del_suenio_u_otro,Faltante,3,0.7672634271099744
+neuro__trastorno_de_estres_postraumatico_tept,0,387,98.9769820971867
+neuro__trastorno_de_estres_postraumatico_tept,Faltante,4,1.0230179028132993
+neuro__trastorno_bipolar,0,388,99.23273657289002
+neuro__trastorno_bipolar,Faltante,3,0.7672634271099744
+neuro__esquizofrenia,0,384,98.20971867007673
+neuro__esquizofrenia,Faltante,4,1.0230179028132993
+neuro__esquizofrenia,1,3,0.7672634271099744
+neuro__depresion,0,379,96.9309462915601
+neuro__depresion,1,8,2.0460358056265986
+neuro__depresion,Faltante,4,1.0230179028132993
+neuro__ansiedad,0,382,97.69820971867007
+neuro__ansiedad,1,6,1.5345268542199488
+neuro__ansiedad,Faltante,3,0.7672634271099744
+neuro__trastorno_obsesivo_compulsivo_toc,0,388,99.23273657289002
+neuro__trastorno_obsesivo_compulsivo_toc,Faltante,3,0.7672634271099744
+neuro__trastornos_neuropsiquiatricos_del_desarrollo_por_ejemplo_trastorno_del_espectro_autista_tea_deficit_de_atencion_con_hiperactividad_tdah_dislexia,0,388,99.23273657289002
+neuro__trastornos_neuropsiquiatricos_del_desarrollo_por_ejemplo_trastorno_del_espectro_autista_tea_deficit_de_atencion_con_hiperactividad_tdah_dislexia,Faltante,3,0.7672634271099744
+neuro__estudio_cerebral_electroencefalograma_eeg,REALIZADO,387,98.9769820971867
+neuro__estudio_cerebral_electroencefalograma_eeg,Faltante,3,0.7672634271099744
+neuro__estudio_cerebral_electroencefalograma_eeg,NO REALIZADO,1,0.2557544757033248
+neuro__hay_valoracion_nps_anterior,NO REALIZADO,378,96.67519181585678
+neuro__hay_valoracion_nps_anterior,Faltante,9,2.3017902813299234
+neuro__hay_valoracion_nps_anterior,REALIZADO,4,1.0230179028132993
+neuro__esc_deterioroglobal,DÉFECIT COGNTIVO MODERADO,319,81.58567774936061
+neuro__esc_deterioroglobal,DEFECIT COGNITIVO LEVE,48,12.27621483375959
+neuro__esc_deterioroglobal,DEFECIT COGNITIVO MUY LEVE,13,3.3248081841432224
+neuro__esc_deterioroglobal,DÉFECIT COGNITIVO GRAVE,4,1.0230179028132993
+neuro__esc_deterioroglobal,Faltante,4,1.0230179028132993
+neuro__esc_deterioroglobal,DÉFECIT COGNITIVO MODERADAMENTE GRAVE,2,0.5115089514066496
+neuro__esc_deterioroglobal,DÉFECIT COGNITIVO MUY GRAVE,1,0.2557544757033248
+hx__actualmente_se_encuentra_en_algun_tratamiento_farmacologico,Sí,151,38.61892583120205
+hx__actualmente_se_encuentra_en_algun_tratamiento_farmacologico,SI,124,31.713554987212277
+hx__actualmente_se_encuentra_en_algun_tratamiento_farmacologico,No,52,13.29923273657289
+hx__actualmente_se_encuentra_en_algun_tratamiento_farmacologico,Si,44,11.253196930946292
+hx__actualmente_se_encuentra_en_algun_tratamiento_farmacologico,NO,15,3.836317135549872
+hx__actualmente_se_encuentra_en_algun_tratamiento_farmacologico,sI,2,0.5115089514066496
+hx__actualmente_se_encuentra_en_algun_tratamiento_farmacologico,si,1,0.2557544757033248
+hx__actualmente_se_encuentra_en_algun_tratamiento_farmacologico,Faltante,1,0.2557544757033248
+hx__actualmente_se_encuentra_en_algun_tratamiento_farmacologico,S{i,1,0.2557544757033248
+hx__usted_fuma,No,270,69.0537084398977
+hx__usted_fuma,NO,114,29.156010230179028
+hx__usted_fuma,SI,7,1.7902813299232736
+hx__con_que_frecuencia_consume_alcohol,Nunca,360,92.07161125319693
+hx__con_que_frecuencia_consume_alcohol,Casi nunca (Una vez al año),10,2.557544757033248
+hx__con_que_frecuencia_consume_alcohol,Ocasionalmente (Una vez por semestre),7,1.7902813299232736
+hx__con_que_frecuencia_consume_alcohol,NO,4,1.0230179028132993
+hx__con_que_frecuencia_consume_alcohol,Frecuentemente (Una vez por mes),3,0.7672634271099744
+hx__con_que_frecuencia_consume_alcohol,ocasionalmente (Una vez por semestre),3,0.7672634271099744
+hx__con_que_frecuencia_consume_alcohol,Faltante,2,0.5115089514066496
+hx__con_que_frecuencia_consume_alcohol,Usualmente 1 vez por semana,2,0.5115089514066496
+hx__le_han_realizado_algun_procedimiento_quirurgico,No,244,62.40409207161125
+hx__le_han_realizado_algun_procedimiento_quirurgico,NO,74,18.925831202046037
+hx__le_han_realizado_algun_procedimiento_quirurgico,SI,71,18.15856777493606
+hx__le_han_realizado_algun_procedimiento_quirurgico,Sí,2,0.5115089514066496
+hx__sufre_de_algun_tipo_de_alergia,No,217,55.49872122762148
+hx__sufre_de_algun_tipo_de_alergia,NO,162,41.43222506393862
+hx__sufre_de_algun_tipo_de_alergia,SI,12,3.0690537084398977
+hx__si_la_respuesta_anterior_es_si_a_que_es_alergico,Faltante,379,96.9309462915601
+hx__si_la_respuesta_anterior_es_si_a_que_es_alergico,Atópica,1,0.2557544757033248
+hx__si_la_respuesta_anterior_es_si_a_que_es_alergico,"Tramadol, clonidina",1,0.2557544757033248
+hx__si_la_respuesta_anterior_es_si_a_que_es_alergico,Atípica,1,0.2557544757033248
+hx__si_la_respuesta_anterior_es_si_a_que_es_alergico,Paciente atópico,1,0.2557544757033248
+hx__si_la_respuesta_anterior_es_si_a_que_es_alergico,Polvo,1,0.2557544757033248
+hx__si_la_respuesta_anterior_es_si_a_que_es_alergico,Está haciendo alergia a los parches para la memoria,1,0.2557544757033248
+hx__si_la_respuesta_anterior_es_si_a_que_es_alergico,Respiratoria,1,0.2557544757033248
+hx__si_la_respuesta_anterior_es_si_a_que_es_alergico,Diclofenaco,1,0.2557544757033248
+hx__si_la_respuesta_anterior_es_si_a_que_es_alergico,Polen,1,0.2557544757033248
+hx__si_la_respuesta_anterior_es_si_a_que_es_alergico,Naproxeno,1,0.2557544757033248
+hx__si_la_respuesta_anterior_es_si_a_que_es_alergico,Polvo (Rinitis alergica),1,0.2557544757033248
+hx__si_la_respuesta_anterior_es_si_a_que_es_alergico,Ciprofloxacina,1,0.2557544757033248
+hx__alguien_mas_en_su_familia_tiene_o_tuvo_alzheimer,NO,134,34.271099744245525
+hx__alguien_mas_en_su_familia_tiene_o_tuvo_alzheimer,No,77,19.69309462915601
+hx__alguien_mas_en_su_familia_tiene_o_tuvo_alzheimer,Sí,76,19.437340153452684
+hx__alguien_mas_en_su_familia_tiene_o_tuvo_alzheimer,SI,66,16.879795396419436
+hx__alguien_mas_en_su_familia_tiene_o_tuvo_alzheimer,Faltante,30,7.672634271099744
+hx__alguien_mas_en_su_familia_tiene_o_tuvo_alzheimer,Si,4,1.0230179028132993
+hx__alguien_mas_en_su_familia_tiene_o_tuvo_alzheimer,sI,3,0.7672634271099744
+hx__alguien_mas_en_su_familia_tiene_o_tuvo_alzheimer,sí,1,0.2557544757033248

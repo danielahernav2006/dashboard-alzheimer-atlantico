@@ -1,0 +1,31 @@
+fuente,tipo_hallazgo,n
+AOO revisada,marcador de ausencia,19
+HXGEN,edad numérica válida,1
+HXGEN,inconsistencia entre variables relacionadas,43
+HXGEN,marcador de ausencia,152
+HXGEN,normalización numérica,107
+HXGEN,normalización numérica con unidad,1
+HXGEN,normalización sintáctica,490
+HXGEN,pendiente/no diligenciado,3
+HXGEN,reconstrucción por consistencia interna,13
+HXGEN,tipo incompatible,4
+HXGEN,valor numérico válido,169
+HXGEN,valor raro para revisión,9
+MOCA,marcador de ausencia,3
+MOCA,puntaje numérico válido,99
+NEURO,código binario validado,9963
+NEURO,código documentado válido,9260
+NEURO,código inválido/no documentado,5
+NEURO,código manual válido,60
+NEURO,código no documentado,10
+NEURO,desconocido documentado,99
+NEURO,edad numérica válida,1
+NEURO,error de hoja de cálculo,5
+NEURO,marcador de ausencia,4306
+NEURO,no aplica estructural,474
+NEURO,normalización numérica con unidad,215
+NEURO,normalización sintáctica,18
+NEURO,tipo incompatible,5
+NEURO,valor incompatible con dominio,354
+NEURO,valor numérico válido,20348
+NEURO,valor raro para revisión,580

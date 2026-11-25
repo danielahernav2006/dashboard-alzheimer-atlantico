@@ -1,0 +1,1787 @@
+[
+ {
+  "columna": "neuro__genero",
+  "etiqueta": "genero",
+  "original": "genero",
+  "familia": "sociodemograficas",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "categórica binaria",
+  "riesgo_leakage_aoo": "Bajo",
+  "descripcion": "Género o sexo registrado del participante.",
+  "etiquetas_codigos_dict": {
+   "0": "Masculino",
+   "1": "Femenino"
+  }
+ },
+ {
+  "columna": "neuro__dx",
+  "etiqueta": "Dx",
+  "original": "Dx",
+  "familia": "identificacion_diagnostico",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "categórica nominal",
+  "riesgo_leakage_aoo": "Bajo / revisar temporalidad",
+  "descripcion": "Diagnóstico registrado para el participante.",
+  "etiquetas_codigos_dict": {
+   "3": "Control",
+   "1": "AD+"
+  }
+ },
+ {
+  "columna": "neuro__mes_y_anio_de_nacimiento",
+  "etiqueta": "mes y año de nacimiento",
+  "original": "mes y año de nacimiento",
+  "familia": "sociodemograficas",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "texto libre / alta cardinalidad",
+  "riesgo_leakage_aoo": "Bajo / revisar temporalidad",
+  "descripcion": "Mes y año de nacimiento del participante.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__edad",
+  "etiqueta": "EDAD",
+  "original": "EDAD",
+  "familia": "sociodemograficas",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "cuantitativa continua",
+  "riesgo_leakage_aoo": "Bajo / revisar temporalidad",
+  "descripcion": "Edad registrada del participante.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__idioma",
+  "etiqueta": "IDIOMA",
+  "original": "IDIOMA",
+  "familia": "sociodemograficas",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "categórica nominal",
+  "riesgo_leakage_aoo": "Bajo",
+  "descripcion": "Idioma principal registrado para el participante.",
+  "etiquetas_codigos_dict": {
+   "1": "Inglés",
+   "2": "Español",
+   "3": "Mandarín",
+   "4": "Cantonés",
+   "5": "Ruso",
+   "6": "Japonés",
+   "7": "Otro idioma principal (ESPECIFICAR)",
+   "8": "Desconocido"
+  }
+ },
+ {
+  "columna": "neuro__otro_idoma",
+  "etiqueta": "OTRO IDOMA",
+  "original": "OTRO IDOMA ",
+  "familia": "sociodemograficas",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "texto libre / alta cardinalidad",
+  "riesgo_leakage_aoo": "Bajo",
+  "descripcion": "Registro de otro idioma reportado por el participante.",
+  "etiquetas_codigos_dict": {
+   "1": "Sí",
+   "2": "No"
+  }
+ },
+ {
+  "columna": "neuro__nivel_educativo",
+  "etiqueta": "Nivel educativo",
+  "original": "Nivel educativo",
+  "familia": "sociodemograficas",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "ordinal",
+  "riesgo_leakage_aoo": "Bajo",
+  "descripcion": "Nivel educativo alcanzado por el participante.",
+  "etiquetas_codigos_dict": {
+   "0": "No escolarizada",
+   "5": "Primaria",
+   "12": "Preparatoria / bachillerato o GED",
+   "16": "Licenciatura",
+   "18": "Maestría",
+   "20": "Doctorado",
+   "99": "Desconocido"
+  }
+ },
+ {
+  "columna": "neuro__estado_civil",
+  "etiqueta": "Estado civil",
+  "original": "Estado civil ",
+  "familia": "sociodemograficas",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "categórica nominal",
+  "riesgo_leakage_aoo": "Bajo / revisar temporalidad",
+  "descripcion": "Estado civil registrado del participante.",
+  "etiquetas_codigos_dict": {
+   "1": "Casado",
+   "2": "Viudo",
+   "3": "Divorciado",
+   "4": "Separado",
+   "5": "Soltero (nunca casado o matrimonio anulado)",
+   "6": "Pareja doméstica",
+   "7": "Desconocido"
+  }
+ },
+ {
+  "columna": "neuro__estado_habitacional",
+  "etiqueta": "Estado Habitacional",
+  "original": "Estado Habitacional",
+  "familia": "sociodemograficas",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "categórica nominal",
+  "riesgo_leakage_aoo": "Bajo / revisar temporalidad",
+  "descripcion": "Situación habitacional registrada del participante.",
+  "etiquetas_codigos_dict": {
+   "1": "Vive solo",
+   "2": "Vive con otra persona: esposo o pareja",
+   "3": "Vive con otra persona: familiar, amigo o compañero de cuarto",
+   "4": "Vive con su cuidador, quien no es su esposo/pareja, familiar o amigo",
+   "5": "Vive con un grupo de personas (familiares o no) en una residencia privada",
+   "6": "Vive en una residencia de atención especializada (de asistencia de actividades de la vida diaria, residencia para adultos mayores, convento, o asilo de ancianos)",
+   "7": "Desconocido"
+  }
+ },
+ {
+  "columna": "neuro__nivel_de_independencia",
+  "etiqueta": "Nivel de independencia",
+  "original": "Nivel de independencia",
+  "familia": "sociodemograficas",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "ordinal",
+  "riesgo_leakage_aoo": "Bajo / revisar temporalidad",
+  "descripcion": "Nivel de independencia registrado para realizar actividades cotidianas.",
+  "etiquetas_codigos_dict": {
+   "1": "Es capaz de vivir independientemente",
+   "2": "Requiere asistencia para actividades complejas",
+   "3": "Requiere asistencia para actividades básicas",
+   "4": "Es completamente dependiente",
+   "5": "Desconocido"
+  }
+ },
+ {
+  "columna": "neuro__tipo_de_residencia",
+  "etiqueta": "Tipo de residencia",
+  "original": "Tipo de residencia ",
+  "familia": "sociodemograficas",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "categórica nominal",
+  "riesgo_leakage_aoo": "Bajo / revisar temporalidad",
+  "descripcion": "Tipo de residencia en la que vive el participante.",
+  "etiquetas_codigos_dict": {
+   "1": "Residencia privada (departamento, condominio, casa)",
+   "2": "Comunidad de retiro o vivienda grupal independiente",
+   "3": "Residencia para adultos mayores, casa de asistencia",
+   "4": "Hospital, hospicio, asilo de ancianos, residencia de cuidados médicos especializados",
+   "5": "Desconocido"
+  }
+ },
+ {
+  "columna": "neuro__lateralidad",
+  "etiqueta": "Lateralidad",
+  "original": "Lateralidad",
+  "familia": "sociodemograficas",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "categórica nominal",
+  "riesgo_leakage_aoo": "Bajo",
+  "descripcion": "Lateralidad predominante registrada para el participante.",
+  "etiquetas_codigos_dict": {
+   "1": "Zurdo",
+   "2": "Diestro",
+   "3": "Ambidiestro",
+   "4": "Desconocido"
+  }
+ },
+ {
+  "columna": "neuro__relacion_del_informante",
+  "etiqueta": "Relación del Informante",
+  "original": "Relación del Informante",
+  "familia": "informante_red_apoyo",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "categórica nominal",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": "Relación o parentesco del informante con el participante.",
+  "etiquetas_codigos_dict": {
+   "1": "Esposo(a), pareja, compañero (incluyendo exesposo(a), ex-pareja, prometido(a), novio(a))",
+   "2": "Hijo (consanguíneo, hijastro, adoptado)",
+   "3": "Hermano (consanguíneo, hermanastro, adoptado)",
+   "4": "Otro familiar (consanguíneo, adquirido por el matrimonio, adoptado)",
+   "5": "Amigo, vecino o conocido de la familia/amigos/ trabajo o de la comunidad (por ejemplo, de la iglesia).",
+   "6": "Paciente"
+  }
+ },
+ {
+  "columna": "neuro__tiempo_anios_de_conocerce",
+  "etiqueta": "Tiempo (años de conocerce)",
+  "original": "Tiempo (años de conocerce)",
+  "familia": "informante_red_apoyo",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "cuantitativa continua",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": null,
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__vive_el_informante_con_el_sujeto",
+  "etiqueta": "¿Vive el informante con el sujeto?",
+  "original": "¿Vive el informante con el sujeto?",
+  "familia": "informante_red_apoyo",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "categórica binaria",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": null,
+  "etiquetas_codigos_dict": {
+   "0": "No",
+   "1": "Sí"
+  }
+ },
+ {
+  "columna": "neuro__si_el_informante_no_vive_con_el_sujeto_con_que_frecuencia_visita_personalmente_al_sujeto",
+  "etiqueta": "Si el informante no vive con el sujeto, ¿con qué frecuencia visita personalmente al sujeto?",
+  "original": "Si el informante no vive con el sujeto, ¿con qué\nfrecuencia visita personalmente al sujeto?",
+  "familia": "informante_red_apoyo",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "ordinal",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": null,
+  "etiquetas_codigos_dict": {
+   "1": "Diario",
+   "2": "Al menos tres veces por semana",
+   "3": "Semanalmente",
+   "4": "Al menos tres veces al mes",
+   "5": "Mensualmente",
+   "6": "Menos de una vez al mes"
+  }
+ },
+ {
+  "columna": "neuro__si_el_informante_no_vive_con_el_sujeto_con_que_frecuencia_tiene_contacto_telefonico_con_el",
+  "etiqueta": "Si el informante no vive con el sujeto, ¿con qué frecuencia tiene contacto telefónico con él?",
+  "original": "Si el informante no vive con el sujeto, ¿con qué\nfrecuencia tiene contacto telefónico con él?",
+  "familia": "informante_red_apoyo",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "ordinal",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": null,
+  "etiquetas_codigos_dict": {
+   "1": "Diario",
+   "2": "Al menos tres veces por semana",
+   "3": "Semanalmente Al menos tres veces al mes",
+   "4": "Mensualmente",
+   "5": "Menos de una vez al mes"
+  }
+ },
+ {
+  "columna": "neuro__hay_miembros_afectados_de_la_familia_padres_biologicos_hermanos_consanguineos_completos_comparten_ambos_padres_o_hijos_biologicos",
+  "etiqueta": "¿Hay miembros afectados de la familia (padres biológicos, hermanos consanguíneos completos (comparten ambos padres), o hijos biológicos)?",
+  "original": "¿Hay miembros afectados de la familia (padres biológicos, hermanos consanguíneos completos (comparten ambos padres), o hijos biológicos)? ",
+  "familia": "historia_familiar",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "categórica nominal",
+  "riesgo_leakage_aoo": "Bajo / revisar temporalidad",
+  "descripcion": "Indica si existen familiares biológicos reportados como afectados por la enfermedad.",
+  "etiquetas_codigos_dict": {
+   "0": "No",
+   "1": "Sí",
+   "9": "Desconocido"
+  }
+ },
+ {
+  "columna": "neuro__familiar_afectado",
+  "etiqueta": "Familiar afectado",
+  "original": "Familiar afectado",
+  "familia": "historia_familiar",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "categórica nominal",
+  "riesgo_leakage_aoo": "Bajo",
+  "descripcion": "Registro del familiar reportado como afectado por la enfermedad.",
+  "etiquetas_codigos_dict": {
+   "1": "Padres",
+   "2": "Hermanos",
+   "3": "Abuelos",
+   "4": "Tios",
+   "5": "Dos"
+  }
+ },
+ {
+  "columna": "neuro__edad_de_inicio",
+  "etiqueta": "Edad de inicio",
+  "original": "Edad de inicio",
+  "familia": "trazabilidad_aoo",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "variable auxiliar del EDA",
+  "riesgo_leakage_aoo": "Alto",
+  "descripcion": "Edad de inicio histórica de neuropsicología; conservada sin cambios para auditoría.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__edad_de_inicio_actualizada",
+  "etiqueta": "Edad de inicio actualizada",
+  "original": "Edad de inicio actualizada",
+  "familia": "trazabilidad_aoo",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "variable auxiliar del EDA",
+  "riesgo_leakage_aoo": "Alto",
+  "descripcion": "Edad de inicio histórica de neuropsicología; conservada sin cambios para auditoría.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__peso",
+  "etiqueta": "Peso",
+  "original": "Peso",
+  "familia": "antropometria",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "cuantitativa continua",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": "Peso registrado del participante.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__talla",
+  "etiqueta": "Talla",
+  "original": "Talla",
+  "familia": "antropometria",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "cuantitativa continua",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": "Talla o estatura registrada del participante.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__medicamento_del_sujeto_1",
+  "etiqueta": "MEDICAMENTO DEL SUJETO 1",
+  "original": "MEDICAMENTO DEL SUJETO 1",
+  "familia": "medicamentos",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "texto libre / alta cardinalidad",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": "Primer medicamento registrado para el participante.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__medicamento_del_sujeto_2",
+  "etiqueta": "MEDICAMENTO DEL SUJETO 2",
+  "original": "MEDICAMENTO DEL SUJETO 2",
+  "familia": "medicamentos",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "texto libre / alta cardinalidad",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": "Segundo medicamento registrado para el participante.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__medicamento_del_sujeto_3",
+  "etiqueta": "MEDICAMENTO DEL SUJETO 3",
+  "original": "MEDICAMENTO DEL SUJETO 3",
+  "familia": "medicamentos",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "texto libre / alta cardinalidad",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": "Tercer medicamento registrado para el participante.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__medicamento_del_sujeto_4",
+  "etiqueta": "MEDICAMENTO DEL SUJETO 4",
+  "original": "MEDICAMENTO DEL SUJETO 4",
+  "familia": "medicamentos",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "texto libre / alta cardinalidad",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": "Cuarto medicamento registrado para el participante.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__medicamento_del_sujeto_5",
+  "etiqueta": "MEDICAMENTO DEL SUJETO 5",
+  "original": "MEDICAMENTO DEL SUJETO 5",
+  "familia": "medicamentos",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "texto libre / alta cardinalidad",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": "Quinto medicamento registrado para el participante.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__medicamento_del_sujeto_6",
+  "etiqueta": "MEDICAMENTO DEL SUJETO 6",
+  "original": "MEDICAMENTO DEL SUJETO 6",
+  "familia": "medicamentos",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "texto libre / alta cardinalidad",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": "Sexto medicamento registrado para el participante.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__medicamento_del_sujeto_7",
+  "etiqueta": "MEDICAMENTO DEL SUJETO 7",
+  "original": "MEDICAMENTO DEL SUJETO 7",
+  "familia": "medicamentos",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "texto libre / alta cardinalidad",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": "Séptimo medicamento registrado para el participante.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__medicamento_del_sujeto_8",
+  "etiqueta": "MEDICAMENTO DEL SUJETO 8",
+  "original": "MEDICAMENTO DEL SUJETO 8",
+  "familia": "medicamentos",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "texto libre / alta cardinalidad",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": "Octavo medicamento registrado para el participante.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__medicamento_del_sujeto_9",
+  "etiqueta": "MEDICAMENTO DEL SUJETO 9",
+  "original": "MEDICAMENTO DEL SUJETO 9",
+  "familia": "medicamentos",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "texto libre / alta cardinalidad",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": "Noveno medicamento registrado para el participante.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__el_sujeto_ha_fumado_en_los_pasados_30_dias",
+  "etiqueta": "El sujeto ha fumado en los pasados 30 días",
+  "original": "El sujeto ha fumado en los pasados 30 días",
+  "familia": "tabaquismo",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "categórica binaria",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": "Indica si el participante reportó consumo reciente de cigarrillos.",
+  "etiquetas_codigos_dict": {
+   "0": "No",
+   "1": "Sí",
+   "9": "Desconocido"
+  }
+ },
+ {
+  "columna": "neuro__el_sujeto_ha_fumado_mas_de_100_cigarros_cigarrillos_en_su_vida",
+  "etiqueta": "¿El sujeto ha fumado más de 100 cigarros / cigarrillos en su vida?",
+  "original": "¿El sujeto ha fumado más de 100 cigarros / cigarrillos\n en su vida?",
+  "familia": "tabaquismo",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "categórica binaria",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": null,
+  "etiquetas_codigos_dict": {
+   "0": "No",
+   "1": "Sí",
+   "9": "Desconocido"
+  }
+ },
+ {
+  "columna": "neuro__numero_total_de_anios_que_ha_fumado_el_sujeto_99_desconocido",
+  "etiqueta": "Años de tabaquismo",
+  "original": "Número total de años que ha fumado el sujeto (99 = desconocido): ",
+  "familia": "tabaquismo",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "cuantitativa continua",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": null,
+  "etiquetas_codigos_dict": {
+   "99": "Desconocido"
+  }
+ },
+ {
+  "columna": "neuro__ataque_cardiaco_o_paro_cardiaco",
+  "etiqueta": "Ataque cardiaco o paro cardíaco",
+  "original": "Ataque cardiaco o paro cardíaco",
+  "familia": "cardiovasculares_cerebrovasculares",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "categórica binaria",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": "Registro de antecedente de ataque cardíaco o paro cardíaco.",
+  "etiquetas_codigos_dict": {
+   "0": "No",
+   "1": "Sí",
+   "9": "Desconocido"
+  }
+ },
+ {
+  "columna": "neuro__fibrilacion_auricular",
+  "etiqueta": "Fibrilación auricular",
+  "original": "Fibrilación auricular",
+  "familia": "cardiovasculares_cerebrovasculares",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "categórica binaria",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": "Registro de antecedente o presencia de fibrilación auricular.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__angioplastia_endarterectomia_stent",
+  "etiqueta": "Angioplastía/ endarterectomía/ stent",
+  "original": "Angioplastía/ endarterectomía/ stent",
+  "familia": "cardiovasculares_cerebrovasculares",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "categórica nominal",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": "Registro de antecedentes de procedimientos vasculares.",
+  "etiquetas_codigos_dict": {
+   "0": "No",
+   "1": "Sí"
+  }
+ },
+ {
+  "columna": "neuro__bypass_cardiaco_coronario",
+  "etiqueta": "Bypass cardíaco/coronario",
+  "original": "Bypass cardíaco/coronario",
+  "familia": "cardiovasculares_cerebrovasculares",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "categórica binaria",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": "Registro de antecedente de bypass cardíaco o coronario.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__marcapasos_y_o_desfibrilador",
+  "etiqueta": "Marcapasos y/o desfibrilador",
+  "original": "Marcapasos y/o desfibrilador",
+  "familia": "cardiovasculares_cerebrovasculares",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "categórica binaria",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": "Registro del uso o antecedente de marcapasos o desfibrilador.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__insuficiencia_cardiaca_congestiva",
+  "etiqueta": "Insuficiencia cardíaca congestiva",
+  "original": " Insuficiencia cardíaca congestiva",
+  "familia": "cardiovasculares_cerebrovasculares",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "categórica binaria",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": "Registro de antecedente o presencia de insuficiencia cardíaca congestiva.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__enfermedad_cerebro_vascular_ecv",
+  "etiqueta": "ENFERMEDAD CEREBRO-VASCULAR (ECV)",
+  "original": "ENFERMEDAD CEREBRO-VASCULAR (ECV)",
+  "familia": "cardiovasculares_cerebrovasculares",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "categórica binaria",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": null,
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__parkinson",
+  "etiqueta": "PARKINSON",
+  "original": "PARKINSON",
+  "familia": "neurologicos",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "categórica binaria",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": "Registro de antecedente o presencia de enfermedad de Parkinson.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__convulsiones",
+  "etiqueta": "CONVULSIONES",
+  "original": "CONVULSIONES",
+  "familia": "neurologicos",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "categórica binaria",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": "Registro de antecedente o presencia de convulsiones.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__traumatismo_de_craneo_encefalico_tce",
+  "etiqueta": "TRAUMATISMO DE CRÁNEO-ENCEFÁLICO (TCE)",
+  "original": "TRAUMATISMO DE CRÁNEO-ENCEFÁLICO (TCE)",
+  "familia": "neurologicos",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "categórica binaria",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": null,
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__diabetes",
+  "etiqueta": "DIABETES",
+  "original": "DIABETES",
+  "familia": "metabolicos_otros",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "categórica nominal",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": "Registro de antecedente o presencia de diabetes.",
+  "etiquetas_codigos_dict": {
+   "0": "No",
+   "1": "Tipo 1",
+   "2": "Tipo 2",
+   "3": "Otro tipo (diabetes insípida, diabetes autoinmune latente/tipo 1.5, diabetes gestacional)",
+   "9": "Desconocido"
+  }
+ },
+ {
+  "columna": "neuro__cancer",
+  "etiqueta": "CANCER",
+  "original": "CANCER",
+  "familia": "metabolicos_otros",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "categórica binaria",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": "Registro de antecedente o presencia de cáncer.",
+  "etiquetas_codigos_dict": {
+   "0": "No",
+   "1": "Sí"
+  }
+ },
+ {
+  "columna": "neuro__hipercholesterolemia",
+  "etiqueta": "Hipercholesterolemia",
+  "original": "Hipercholesterolemia",
+  "familia": "metabolicos_otros",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "categórica binaria",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": "Registro de antecedente o presencia de hipercolesterolemia.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__hipertension_arterial",
+  "etiqueta": "Hipertensión arterial",
+  "original": "Hipertensión arterial",
+  "familia": "metabolicos_otros",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "categórica binaria",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": "Registro de antecedente o presencia de hipertensión arterial.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__niveles_de_vitamina_d",
+  "etiqueta": "NIVELES DE VITAMINA D",
+  "original": "NIVELES DE VITAMINA D",
+  "familia": "metabolicos_otros",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "categórica nominal",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": "Información registrada relacionada con los niveles de vitamina D.",
+  "etiquetas_codigos_dict": {
+   "0": "No"
+  }
+ },
+ {
+  "columna": "neuro__deficiencia_de_b12",
+  "etiqueta": "Deficiencia de B12",
+  "original": "Deficiencia de B12",
+  "familia": "metabolicos_otros",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "categórica binaria",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": "Registro de antecedente o presencia de deficiencia de vitamina B12.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__enfermedad_tiroidea",
+  "etiqueta": "Enfermedad tiroidea",
+  "original": "Enfermedad tiroidea",
+  "familia": "metabolicos_otros",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "categórica binaria",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": "Registro de antecedente o presencia de enfermedad tiroidea.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__artritis",
+  "etiqueta": "Artritis",
+  "original": "Artritis",
+  "familia": "metabolicos_otros",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "categórica binaria",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": "Registro de antecedente o presencia de artritis.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__artrosis",
+  "etiqueta": "Artrosis",
+  "original": "Artrosis",
+  "familia": "metabolicos_otros",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "categórica binaria",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": "Registro de antecedente o presencia de artrosis.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__osteoporosis",
+  "etiqueta": "Osteoporosis",
+  "original": "Osteoporosis",
+  "familia": "metabolicos_otros",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "categórica binaria",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": "Registro de antecedente o presencia de osteoporosis.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__incontinencia_urinaria",
+  "etiqueta": "Incontinencia — urinaria",
+  "original": "Incontinencia — urinaria",
+  "familia": "metabolicos_otros",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "categórica binaria",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": "Registro de presencia de incontinencia urinaria.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__incontinencia_fecal",
+  "etiqueta": "Incontinencia — fecal",
+  "original": "Incontinencia — fecal",
+  "familia": "metabolicos_otros",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "categórica binaria",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": "Registro de presencia de incontinencia fecal.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__apnea_del_suenio_u_otro",
+  "etiqueta": "Apnea del sueño U OTRO",
+  "original": "Apnea del sueño U OTRO",
+  "familia": "metabolicos_otros",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "categórica binaria",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": "Registro de apnea del sueño u otra condición relacionada.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__trastorno_de_estres_postraumatico_tept",
+  "etiqueta": "Trastorno de estrés postraumático (TEPT)",
+  "original": "Trastorno de estrés postraumático (TEPT)",
+  "familia": "psiquiatricos",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "categórica binaria",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": null,
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__trastorno_bipolar",
+  "etiqueta": "Trastorno bipolar",
+  "original": "Trastorno bipolar",
+  "familia": "psiquiatricos",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "categórica binaria",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": "Registro de antecedente o presencia de trastorno bipolar.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__esquizofrenia",
+  "etiqueta": "Esquizofrenia",
+  "original": "Esquizofrenia",
+  "familia": "psiquiatricos",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "categórica binaria",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": "Registro de antecedente o presencia de esquizofrenia.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__depresion",
+  "etiqueta": "Depresión",
+  "original": "Depresión",
+  "familia": "psiquiatricos",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "categórica binaria",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": "Registro de antecedente o presencia de depresión.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__ansiedad",
+  "etiqueta": "Ansiedad",
+  "original": "Ansiedad",
+  "familia": "psiquiatricos",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "categórica binaria",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": "Registro de antecedente o presencia de ansiedad.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__trastorno_obsesivo_compulsivo_toc",
+  "etiqueta": "Trastorno obsesivo-compulsivo (TOC)",
+  "original": "Trastorno obsesivo-compulsivo (TOC)",
+  "familia": "psiquiatricos",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "categórica binaria",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": null,
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__trastornos_neuropsiquiatricos_del_desarrollo_por_ejemplo_trastorno_del_espectro_autista_tea_deficit_de_atencion_con_hiperactividad_tdah_dislexia",
+  "etiqueta": "Trastornos neuropsiquiátricos del desarrollo (por ejemplo, trastorno del espectro autista (TEA), déficit de atención con hiperactividad (TDAH), dislexia)",
+  "original": "Trastornos neuropsiquiátricos del desarrollo (por ejemplo, trastorno del espectro autista (TEA), déficit de atención con hiperactividad (TDAH), dislexia)",
+  "familia": "psiquiatricos",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "categórica binaria",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": "Registro de antecedentes o presencia de trastornos neuropsiquiátricos del desarrollo.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__estudio_cerebral_electroencefalograma_eeg",
+  "etiqueta": "Estudio Cerebral Electroencefalograma (EEG)",
+  "original": "Estudio Cerebral Electroencefalograma (EEG)",
+  "familia": "estudios_complementarios",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "categórica nominal",
+  "riesgo_leakage_aoo": "Bajo / revisar temporalidad",
+  "descripcion": null,
+  "etiquetas_codigos_dict": {
+   "0": "NO REALIZADO",
+   "1": "REALIZADO"
+  }
+ },
+ {
+  "columna": "neuro__hay_valoracion_nps_anterior",
+  "etiqueta": "¿Hay valoración NPS anterior?",
+  "original": "¿Hay valoración NPS anterior?",
+  "familia": "metadatos_nps",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "categórica binaria",
+  "riesgo_leakage_aoo": "Potencial",
+  "descripcion": null,
+  "etiquetas_codigos_dict": {
+   "0": "NO REALIZADO",
+   "1": "REALIZADO"
+  }
+ },
+ {
+  "columna": "neuro__si_tiene_anteriormente_valoracion_nps_en_que_fecha_se_aplico",
+  "etiqueta": "Si tiene anteriormente valoración NPS ¿en que fecha se aplico?",
+  "original": "Si tiene anteriormente  valoración NPS  ¿en que fecha se aplico?",
+  "familia": "metadatos_nps",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "texto libre / alta cardinalidad",
+  "riesgo_leakage_aoo": "Potencial",
+  "descripcion": null,
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__mmse",
+  "etiqueta": "MMSE",
+  "original": "MMSE",
+  "familia": "cognicion_global",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "cuantitativa discreta",
+  "riesgo_leakage_aoo": "Alto",
+  "descripcion": "Puntaje obtenido en una prueba de evaluación cognitiva global.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__cmweschler",
+  "etiqueta": "CMWESCHLER",
+  "original": "CMWESCHLER",
+  "familia": "memoria",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "cuantitativa discreta",
+  "riesgo_leakage_aoo": "Potencial",
+  "descripcion": "Resultado registrado de una prueba relacionada con memoria.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__fvsa",
+  "etiqueta": "FVSa",
+  "original": "FVSa",
+  "familia": "fluidez_verbal",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "cuantitativa discreta",
+  "riesgo_leakage_aoo": "Potencial",
+  "descripcion": "Resultado de una tarea de fluidez verbal.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__perdida_categoria_fvsa",
+  "etiqueta": "Perdida Categoria FVSA",
+  "original": "Perdida Categoria FVSA",
+  "familia": "fluidez_verbal",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "cuantitativa discreta",
+  "riesgo_leakage_aoo": "Potencial",
+  "descripcion": "Registro de pérdida de categoría durante la tarea FVSa.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__perseveraciones_fvsa",
+  "etiqueta": "Perseveraciones FVSA",
+  "original": "Perseveraciones FVSA",
+  "familia": "fluidez_verbal",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "cuantitativa discreta",
+  "riesgo_leakage_aoo": "Potencial",
+  "descripcion": "Número o registro de perseveraciones observadas en FVSa.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__fvsc",
+  "etiqueta": "FVSc",
+  "original": "FVSc",
+  "familia": "fluidez_verbal",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "cuantitativa discreta",
+  "riesgo_leakage_aoo": "Potencial",
+  "descripcion": "Resultado de una tarea de fluidez verbal.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__perdida_categoria_fvsc",
+  "etiqueta": "Perdida Categoria FVSC",
+  "original": "Perdida Categoria FVSC",
+  "familia": "fluidez_verbal",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "cuantitativa discreta",
+  "riesgo_leakage_aoo": "Potencial",
+  "descripcion": "Registro de pérdida de categoría durante la tarea FVSc.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__perseveraciones_fvsc",
+  "etiqueta": "Perseveraciones FVSC",
+  "original": "Perseveraciones FVSC",
+  "familia": "fluidez_verbal",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "cuantitativa discreta",
+  "riesgo_leakage_aoo": "Potencial",
+  "descripcion": "Número o registro de perseveraciones observadas en FVSc.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__fvff",
+  "etiqueta": "FVFf",
+  "original": "FVFf",
+  "familia": "fluidez_verbal",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "cuantitativa discreta",
+  "riesgo_leakage_aoo": "Potencial",
+  "descripcion": "Resultado de una tarea de fluidez verbal.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__perdida_categoria_fvff",
+  "etiqueta": "Perdida Categoria FVFf",
+  "original": "Perdida Categoria FVFf",
+  "familia": "fluidez_verbal",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "cuantitativa discreta",
+  "riesgo_leakage_aoo": "Potencial",
+  "descripcion": "Registro de pérdida de categoría durante la tarea FVFf.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__perseveraciones_fvff",
+  "etiqueta": "Perseveraciones FVFf",
+  "original": "Perseveraciones FVFf",
+  "familia": "fluidez_verbal",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "cuantitativa discreta",
+  "riesgo_leakage_aoo": "Potencial",
+  "descripcion": "Número o registro de perseveraciones observadas en FVFf.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__fvfa",
+  "etiqueta": "FVFa",
+  "original": "FVFa",
+  "familia": "fluidez_verbal",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "cuantitativa discreta",
+  "riesgo_leakage_aoo": "Potencial",
+  "descripcion": "Resultado de una tarea de fluidez verbal.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__perdida_categoria_fvfa",
+  "etiqueta": "Perdida Categoria FVFa",
+  "original": "Perdida Categoria FVFa",
+  "familia": "fluidez_verbal",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "cuantitativa discreta",
+  "riesgo_leakage_aoo": "Potencial",
+  "descripcion": "Registro de pérdida de categoría durante la tarea FVFa.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__perseveraciones_fvfa",
+  "etiqueta": "Perseveraciones FVFa",
+  "original": "Perseveraciones FVFa",
+  "familia": "fluidez_verbal",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "cuantitativa discreta",
+  "riesgo_leakage_aoo": "Potencial",
+  "descripcion": "Número o registro de perseveraciones observadas en FVFa.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__fvfs",
+  "etiqueta": "FVFs",
+  "original": "FVFs",
+  "familia": "fluidez_verbal",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "cuantitativa discreta",
+  "riesgo_leakage_aoo": "Potencial",
+  "descripcion": "Resultado de una tarea de fluidez verbal.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__perdida_categoria_fvfs",
+  "etiqueta": "Perdida Categoria FVFs",
+  "original": "Perdida Categoria FVFs",
+  "familia": "fluidez_verbal",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "cuantitativa discreta",
+  "riesgo_leakage_aoo": "Potencial",
+  "descripcion": "Registro de pérdida de categoría durante la tarea FVFs.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__perseveraciones_fvfs",
+  "etiqueta": "Perseveraciones FVFs",
+  "original": "Perseveraciones FVFs",
+  "familia": "fluidez_verbal",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "cuantitativa discreta",
+  "riesgo_leakage_aoo": "Potencial",
+  "descripcion": "Número o registro de perseveraciones observadas en FVFs.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__fcrocop",
+  "etiqueta": "FCROCOP",
+  "original": "FCROCOP",
+  "familia": "praxia_visuoconstruccion",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "cuantitativa discreta",
+  "riesgo_leakage_aoo": "Potencial",
+  "descripcion": "Resultado obtenido en la tarea de copia de una figura compleja.",
+  "etiquetas_codigos_dict": {
+   "0": "NO OBTUVO PUNTUACIÓN O NO SE LE APLICO"
+  }
+ },
+ {
+  "columna": "neuro__fcroevo",
+  "etiqueta": "FCROEVO",
+  "original": "FCROEVO",
+  "familia": "praxia_visuoconstruccion",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "cuantitativa discreta",
+  "riesgo_leakage_aoo": "Potencial",
+  "descripcion": "Resultado obtenido en la tarea de evocación de una figura compleja.",
+  "etiquetas_codigos_dict": {
+   "0": "NO OBTUVO PUNTUACIÓN O NO SE LE APLICO"
+  }
+ },
+ {
+  "columna": "neuro__token",
+  "etiqueta": "TOKEN",
+  "original": "TOKEN",
+  "familia": "lenguaje",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "cuantitativa discreta",
+  "riesgo_leakage_aoo": "Potencial",
+  "descripcion": "Resultado obtenido en una prueba relacionada con comprensión del lenguaje.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__taavrey1",
+  "etiqueta": "TAAVREY1",
+  "original": "TAAVREY1",
+  "familia": "memoria",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "cuantitativa discreta",
+  "riesgo_leakage_aoo": "Potencial",
+  "descripcion": "Resultado del primer ensayo de una prueba de aprendizaje y memoria verbal.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__taavrey2",
+  "etiqueta": "TAAVREY2",
+  "original": "TAAVREY2",
+  "familia": "memoria",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "cuantitativa discreta",
+  "riesgo_leakage_aoo": "Potencial",
+  "descripcion": "Resultado del segundo ensayo de una prueba de aprendizaje y memoria verbal.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__taavrey3",
+  "etiqueta": "TAAVREY3",
+  "original": "TAAVREY3",
+  "familia": "memoria",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "cuantitativa discreta",
+  "riesgo_leakage_aoo": "Potencial",
+  "descripcion": "Resultado del tercer ensayo de una prueba de aprendizaje y memoria verbal.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__taavrey4",
+  "etiqueta": "TAAVREY4",
+  "original": "TAAVREY4",
+  "familia": "memoria",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "cuantitativa discreta",
+  "riesgo_leakage_aoo": "Potencial",
+  "descripcion": "Resultado del cuarto ensayo de una prueba de aprendizaje y memoria verbal.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__taavrey5",
+  "etiqueta": "TAAVREY5",
+  "original": "TAAVREY5",
+  "familia": "memoria",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "cuantitativa discreta",
+  "riesgo_leakage_aoo": "Potencial",
+  "descripcion": "Resultado del quinto ensayo de una prueba de aprendizaje y memoria verbal.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__taavreyb1",
+  "etiqueta": "TAAVREYB1",
+  "original": "TAAVREYB1",
+  "familia": "memoria",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "cuantitativa discreta",
+  "riesgo_leakage_aoo": "Potencial",
+  "descripcion": "Resultado registrado en la lista o ensayo de interferencia de la prueba.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__taavrey6",
+  "etiqueta": "TAAVREY6",
+  "original": "TAAVREY6",
+  "familia": "memoria",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "cuantitativa discreta",
+  "riesgo_leakage_aoo": "Potencial",
+  "descripcion": "Resultado de un ensayo posterior de recuerdo en la prueba de memoria verbal.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__taavrey7",
+  "etiqueta": "TAAVREY7",
+  "original": "TAAVREY7",
+  "familia": "memoria",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "cuantitativa discreta",
+  "riesgo_leakage_aoo": "Potencial",
+  "descripcion": "Resultado de un ensayo posterior de recuerdo en la prueba de memoria verbal.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__taavrey_rec_si",
+  "etiqueta": "TAAVREY REC si",
+  "original": "TAAVREY REC si",
+  "familia": "memoria",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "cuantitativa discreta",
+  "riesgo_leakage_aoo": "Potencial",
+  "descripcion": "Número de respuestas afirmativas registradas en la fase de reconocimiento.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__taavrey_rec_no",
+  "etiqueta": "TAAVREY REC no",
+  "original": "TAAVREY REC no",
+  "familia": "memoria",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "cuantitativa discreta",
+  "riesgo_leakage_aoo": "Potencial",
+  "descripcion": "Número de respuestas negativas registradas en la fase de reconocimiento.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__tbn_espontanea",
+  "etiqueta": "TBN espontanea",
+  "original": "TBN espontanea",
+  "familia": "lenguaje",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "cuantitativa discreta",
+  "riesgo_leakage_aoo": "Potencial",
+  "descripcion": "Resultado de denominación espontánea registrado en el Test de Boston.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__tbn_semantica",
+  "etiqueta": "TBN semántica",
+  "original": "TBN semántica",
+  "familia": "lenguaje",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "cuantitativa discreta",
+  "riesgo_leakage_aoo": "Potencial",
+  "descripcion": "Resultado registrado con ayuda o clave semántica en el Test de Boston.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__tbn_total",
+  "etiqueta": "TBN total",
+  "original": "TBN total",
+  "familia": "lenguaje",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "cuantitativa discreta",
+  "riesgo_leakage_aoo": "Potencial",
+  "descripcion": "Puntuación total registrada en el Test de Boston.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__tspal",
+  "etiqueta": "TSPAL",
+  "original": "TSPAL",
+  "familia": "funcion_ejecutiva_atencion",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "cuantitativa discreta",
+  "riesgo_leakage_aoo": "Potencial",
+  "descripcion": "Resultado registrado en la condición de palabras de una prueba de atención y control ejecutivo.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__tscol",
+  "etiqueta": "TSCOL",
+  "original": "TSCOL",
+  "familia": "funcion_ejecutiva_atencion",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "cuantitativa discreta",
+  "riesgo_leakage_aoo": "Potencial",
+  "descripcion": "Resultado registrado en la condición de colores de una prueba de atención y control ejecutivo.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__tspalcol",
+  "etiqueta": "TSPALCOL",
+  "original": "TSPALCOL",
+  "familia": "funcion_ejecutiva_atencion",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "cuantitativa discreta",
+  "riesgo_leakage_aoo": "Potencial",
+  "descripcion": "Resultado registrado en una condición combinada de palabras y colores.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__tmta",
+  "etiqueta": "TMTA",
+  "original": "TMTA",
+  "familia": "funcion_ejecutiva_atencion",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "cuantitativa discreta",
+  "riesgo_leakage_aoo": "Potencial",
+  "descripcion": "Resultado de la parte A de una prueba de seguimiento y atención.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__tmtb",
+  "etiqueta": "TMTB",
+  "original": "TMTB",
+  "familia": "funcion_ejecutiva_atencion",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "cuantitativa discreta",
+  "riesgo_leakage_aoo": "Potencial",
+  "descripcion": "Resultado de la parte B de una prueba de seguimiento y función ejecutiva.",
+  "etiquetas_codigos_dict": {
+   "0": "No lo hace"
+  }
+ },
+ {
+  "columna": "neuro__tsmydoral",
+  "etiqueta": "TSMYDORAL",
+  "original": "TSMYDORAL",
+  "familia": "memoria_semantica_conocimiento",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "cuantitativa discreta",
+  "riesgo_leakage_aoo": "Potencial",
+  "descripcion": "Resultado de una evaluación oral relacionada con memoria semántica o conocimiento.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__tsmyd_escr",
+  "etiqueta": "TSMYD ESCR",
+  "original": "TSMYD ESCR",
+  "familia": "memoria_semantica_conocimiento",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "cuantitativa discreta",
+  "riesgo_leakage_aoo": "Potencial",
+  "descripcion": "Resultado de una evaluación escrita relacionada con memoria semántica o conocimiento.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__teac",
+  "etiqueta": "TEAC",
+  "original": "TEAC",
+  "familia": "funcion_ejecutiva_atencion",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "cuantitativa discreta",
+  "riesgo_leakage_aoo": "Potencial",
+  "descripcion": "Resultado registrado en una prueba relacionada con atención y funcionamiento ejecutivo.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__benton",
+  "etiqueta": "BENTON",
+  "original": "BENTON",
+  "familia": "memoria_semantica_conocimiento",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "cuantitativa discreta",
+  "riesgo_leakage_aoo": "Potencial",
+  "descripcion": "Resultado registrado en la prueba de Benton.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__reloj",
+  "etiqueta": "RELOJ",
+  "original": "RELOJ",
+  "familia": "praxia_visuoconstruccion",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "cuantitativa discreta",
+  "riesgo_leakage_aoo": "Potencial",
+  "descripcion": "Resultado obtenido en la prueba del dibujo del reloj.",
+  "etiquetas_codigos_dict": {
+   "0": "NO APLICADO O NO OBTIENE PUNTAJE"
+  }
+ },
+ {
+  "columna": "neuro__twiscat",
+  "etiqueta": "TWISCAT",
+  "original": "TWISCAT",
+  "familia": "funcion_ejecutiva_atencion",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "cuantitativa discreta",
+  "riesgo_leakage_aoo": "Potencial",
+  "descripcion": "Número o resultado de categorías alcanzadas en la prueba Wisconsin.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__twisenp",
+  "etiqueta": "TWISENP",
+  "original": "TWISENP",
+  "familia": "funcion_ejecutiva_atencion",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "cuantitativa discreta",
+  "riesgo_leakage_aoo": "Potencial",
+  "descripcion": "Registro de errores no perseverativos en la prueba Wisconsin.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__twisep",
+  "etiqueta": "TWISEP",
+  "original": "TWISEP",
+  "familia": "funcion_ejecutiva_atencion",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "cuantitativa discreta",
+  "riesgo_leakage_aoo": "Potencial",
+  "descripcion": "Registro de errores perseverativos en la prueba Wisconsin.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__twiscorresctas",
+  "etiqueta": "TWISCORRESCTAS",
+  "original": "TWISCORRESCTAS",
+  "familia": "funcion_ejecutiva_atencion",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "cuantitativa discreta",
+  "riesgo_leakage_aoo": "Potencial",
+  "descripcion": "Número de respuestas correctas registrado en la prueba Wisconsin.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "neuro__quejas_subjetivas",
+  "etiqueta": "QUEJAS SUBJETIVAS",
+  "original": "QUEJAS SUBJETIVAS",
+  "familia": "funcional_afectivo_quejas",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "cuantitativa discreta",
+  "riesgo_leakage_aoo": "Alto",
+  "descripcion": "Registro de quejas cognitivas subjetivas reportadas.",
+  "etiquetas_codigos_dict": {
+   "0": "NO QUEJAS",
+   "1": "LEVES",
+   "2": "MODERADAS",
+   "3": "SIGNIFICATIVAS"
+  }
+ },
+ {
+  "columna": "neuro__yesavage",
+  "etiqueta": "YESAVAGE",
+  "original": "YESAVAGE",
+  "familia": "funcional_afectivo_quejas",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "cuantitativa discreta",
+  "riesgo_leakage_aoo": "Alto",
+  "descripcion": "Resultado obtenido en una escala de evaluación de síntomas depresivos.",
+  "etiquetas_codigos_dict": {
+   "0-5": "NORMAL",
+   "6-10": "DEPRESION MODERADA",
+   "11-15": "DEPRESION SEVERA",
+   "16": "NO SE APLICA"
+  }
+ },
+ {
+  "columna": "neuro__barthel",
+  "etiqueta": "BARTHEL",
+  "original": "BARTHEL",
+  "familia": "funcional_afectivo_quejas",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "cuantitativa discreta",
+  "riesgo_leakage_aoo": "Alto",
+  "descripcion": "Resultado de una escala de independencia en actividades de la vida diaria.",
+  "etiquetas_codigos_dict": {
+   "50": "NO DIFICULTADES"
+  }
+ },
+ {
+  "columna": "neuro__lawton_y_brody",
+  "etiqueta": "LAWTON Y BRODY",
+  "original": "LAWTON Y BRODY",
+  "familia": "funcional_afectivo_quejas",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "cuantitativa discreta",
+  "riesgo_leakage_aoo": "Alto",
+  "descripcion": "Resultado de una escala de actividades instrumentales de la vida diaria.",
+  "etiquetas_codigos_dict": {
+   "0": "AUSENCIA DE DIFICULTAD",
+   "1": "LEVES",
+   "2": "MODERADO",
+   "3": "SEVERO"
+  }
+ },
+ {
+  "columna": "neuro__ikatz",
+  "etiqueta": "IKATZ",
+  "original": "IKATZ",
+  "familia": "funcional_afectivo_quejas",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "cuantitativa discreta",
+  "riesgo_leakage_aoo": "Alto",
+  "descripcion": "Resultado registrado en una escala de funcionamiento en actividades cotidianas.",
+  "etiquetas_codigos_dict": {
+   "0-1": "AUSENCIA DE INCAPACIDAD",
+   "2-3": "INCAPACIDAD MODERADA",
+   "4-6": "INCAPACIDAD SEVERA"
+  }
+ },
+ {
+  "columna": "neuro__fast",
+  "etiqueta": "FAST",
+  "original": "FAST",
+  "familia": "funcional_afectivo_quejas",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "cuantitativa discreta",
+  "riesgo_leakage_aoo": "Alto",
+  "descripcion": "Resultado de una escala utilizada para valorar el estado funcional asociado al deterioro.",
+  "etiquetas_codigos_dict": {
+   "1": "NINGUNA DIFICULTAD",
+   "2": "DIFUCLTAD SUBJETIVA",
+   "3": "DISMINUCION EN LA CAPACIDAD ORGANIZACIONAL",
+   "4": "DIFICULTAD EN EL CONTROL DEL ASPECTO PERSONAL Y ECONOMICO"
+  }
+ },
+ {
+  "columna": "neuro__esc_deterioroglobal",
+  "etiqueta": "ESC DETERIOROGLOBAL",
+  "original": "ESC DETERIOROGLOBAL",
+  "familia": "cognicion_global",
+  "fuente": "neuropsicologia",
+  "tipo_analitico": "ordinal",
+  "riesgo_leakage_aoo": "Alto",
+  "descripcion": "Resultado de una escala de valoración global del deterioro.",
+  "etiquetas_codigos_dict": {
+   "1": "AUSENCIA DEDEFECIT COGNITIVO",
+   "2": "DEFECIT COGNITIVO MUY LEVE",
+   "3": "DEFECIT COGNITIVO LEVE",
+   "4": "DÉFECIT COGNTIVO MODERADO",
+   "5": "DÉFECIT COGNITIVO MODERADAMENTE GRAVE",
+   "6": "DÉFECIT COGNITIVO GRAVE",
+   "7": "DÉFECIT COGNITIVO MUY GRAVE"
+  }
+ },
+ {
+  "columna": "moca__moca",
+  "etiqueta": "MoCA",
+  "original": "MoCA",
+  "familia": "cognicion_global",
+  "fuente": "moca",
+  "tipo_analitico": "cuantitativa discreta",
+  "riesgo_leakage_aoo": "Alto",
+  "descripcion": "Puntaje obtenido en una prueba de evaluación cognitiva global.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "hx__edad",
+  "etiqueta": "Edad",
+  "original": "Edad ",
+  "familia": "historia_clinica_genetica",
+  "fuente": "hxgen",
+  "tipo_analitico": "cuantitativa continua",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": "Edad registrada del participante.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "hx__ciudad_o_municipio_de_residencia",
+  "etiqueta": "Ciudad o municipio de residencia",
+  "original": "Ciudad o municipio de residencia ",
+  "familia": "historia_clinica_genetica",
+  "fuente": "hxgen",
+  "tipo_analitico": "texto libre / alta cardinalidad",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": "Ciudad o municipio de residencia registrado para el participante.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "hx__enfermedad_actual",
+  "etiqueta": "Enfermedad actual",
+  "original": "Enfermedad actual ",
+  "familia": "historia_clinica_genetica",
+  "fuente": "hxgen",
+  "tipo_analitico": "texto libre / alta cardinalidad",
+  "riesgo_leakage_aoo": "Alto",
+  "descripcion": "Enfermedad o condición actual registrada para el participante.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "hx__que_sintomas_presenta",
+  "etiqueta": "¿Qué síntomas presenta?",
+  "original": "¿Qué síntomas presenta? \n",
+  "familia": "historia_clinica_genetica",
+  "fuente": "hxgen",
+  "tipo_analitico": "texto libre / alta cardinalidad",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": null,
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "hx__el_paciente_necesita_apoyo_para_realizar_las_siguientes_tareas",
+  "etiqueta": "El Paciente necesita apoyo para realizar las siguientes tareas",
+  "original": "El Paciente necesita apoyo para realizar las siguientes tareas ",
+  "familia": "historia_clinica_genetica",
+  "fuente": "hxgen",
+  "tipo_analitico": "texto libre / alta cardinalidad",
+  "riesgo_leakage_aoo": "Alto",
+  "descripcion": "Actividades para las que se reporta que el participante requiere apoyo.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "hx__indique_que_estudios_previos_le_han_realizado",
+  "etiqueta": "Indique que estudios previos le han realizado.",
+  "original": "Indique que estudios previos le han realizado.",
+  "familia": "historia_clinica_genetica",
+  "fuente": "hxgen",
+  "tipo_analitico": "texto libre / alta cardinalidad",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": "Estudios o evaluaciones previas realizadas al participante.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "hx__si_le_han_realizado_estudios_previos_encontraron_hallazgos_cuales",
+  "etiqueta": "Si le han realizado estudios previos, ¿Encontraron hallazgos? ¿Cuales?",
+  "original": "Si le han realizado estudios previos, ¿Encontraron hallazgos? ¿Cuales?",
+  "familia": "historia_clinica_genetica",
+  "fuente": "hxgen",
+  "tipo_analitico": "texto libre / alta cardinalidad",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": null,
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "hx__antecedentes",
+  "etiqueta": "Antecedentes",
+  "original": "Antecedentes ",
+  "familia": "historia_clinica_genetica",
+  "fuente": "hxgen",
+  "tipo_analitico": "texto libre / alta cardinalidad",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": "Antecedentes clínicos registrados para el participante.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "hx__actualmente_se_encuentra_en_algun_tratamiento_farmacologico",
+  "etiqueta": "¿Actualmente se encuentra en algún tratamiento farmacológico?",
+  "original": "¿Actualmente se encuentra en algún tratamiento farmacológico? ",
+  "familia": "historia_clinica_genetica",
+  "fuente": "hxgen",
+  "tipo_analitico": "categórica nominal",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": null,
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "hx__si_la_respuesta_anterior_fue_si_que_medicamentos_esta_consumiendo",
+  "etiqueta": "Si la respuesta anterior fue SI, ¿Qué medicamentos está consumiendo?",
+  "original": "Si la respuesta anterior fue SI, ¿Qué medicamentos está consumiendo?",
+  "familia": "historia_clinica_genetica",
+  "fuente": "hxgen",
+  "tipo_analitico": "texto libre / alta cardinalidad",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": null,
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "hx__usted_fuma",
+  "etiqueta": "¿Usted fuma?",
+  "original": "¿Usted fuma?",
+  "familia": "historia_clinica_genetica",
+  "fuente": "hxgen",
+  "tipo_analitico": "categórica nominal",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": null,
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "hx__si_respuesta_anterior_fue_afirmativa_hace_cuantos_anios_fuma",
+  "etiqueta": "Si respuesta anterior fue afirmativa, ¿Hace cuantos años fuma?",
+  "original": "Si respuesta anterior fue afirmativa, ¿Hace cuantos años fuma? ",
+  "familia": "historia_clinica_genetica",
+  "fuente": "hxgen",
+  "tipo_analitico": "texto libre / alta cardinalidad",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": null,
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "hx__con_que_frecuencia_consume_alcohol",
+  "etiqueta": "¿Con que frecuencia consume alcohol?",
+  "original": "¿Con que frecuencia consume alcohol? ",
+  "familia": "historia_clinica_genetica",
+  "fuente": "hxgen",
+  "tipo_analitico": "categórica nominal",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": null,
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "hx__le_han_realizado_algun_procedimiento_quirurgico",
+  "etiqueta": "¿Le han realizado algún procedimiento quirúrgico?",
+  "original": "¿Le han realizado algún procedimiento quirúrgico?",
+  "familia": "historia_clinica_genetica",
+  "fuente": "hxgen",
+  "tipo_analitico": "categórica nominal",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": null,
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "hx__si_la_respuesta_anterior_fue_si_que_cirugia_le_han_realizado",
+  "etiqueta": "Si la respuesta anterior fue SI. ¿Qué cirugía le han realizado?",
+  "original": "Si la respuesta anterior fue SI. ¿Qué cirugía le han realizado? ",
+  "familia": "historia_clinica_genetica",
+  "fuente": "hxgen",
+  "tipo_analitico": "texto libre / alta cardinalidad",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": null,
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "hx__en_que_fecha_le_realizaron_la_cirugia",
+  "etiqueta": "¿En que fecha le realizaron la cirugía?",
+  "original": "¿En que fecha le realizaron la cirugía? ",
+  "familia": "historia_clinica_genetica",
+  "fuente": "hxgen",
+  "tipo_analitico": "texto libre / alta cardinalidad",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": null,
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "hx__sufre_de_algun_tipo_de_alergia",
+  "etiqueta": "¿Sufre de algún tipo de alergia?",
+  "original": "¿Sufre de algún tipo de alergia? ",
+  "familia": "historia_clinica_genetica",
+  "fuente": "hxgen",
+  "tipo_analitico": "categórica nominal",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": null,
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "hx__si_la_respuesta_anterior_es_si_a_que_es_alergico",
+  "etiqueta": "Si la respuesta anterior es SI. ¿A que es alérgico?",
+  "original": "Si la respuesta anterior es SI. ¿A que es alérgico? ",
+  "familia": "historia_clinica_genetica",
+  "fuente": "hxgen",
+  "tipo_analitico": "categórica nominal",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": null,
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "hx__peso_en_kilogramo",
+  "etiqueta": "Peso en Kilogramo",
+  "original": "Peso en Kilogramo",
+  "familia": "historia_clinica_genetica",
+  "fuente": "hxgen",
+  "tipo_analitico": "cuantitativa continua",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": "Peso del participante registrado en kilogramos.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "hx__altura_en_centimetro",
+  "etiqueta": "Altura en centímetro",
+  "original": "Altura en centímetro ",
+  "familia": "historia_clinica_genetica",
+  "fuente": "hxgen",
+  "tipo_analitico": "cuantitativa continua",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": "Altura del participante registrada en centímetros.",
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "hx__alguien_mas_en_su_familia_tiene_o_tuvo_alzheimer",
+  "etiqueta": "¿Alguien más en su familia tiene o tuvo Alzheimer?",
+  "original": "¿Alguien más en su familia tiene o tuvo Alzheimer? ",
+  "familia": "historia_clinica_genetica",
+  "fuente": "hxgen",
+  "tipo_analitico": "categórica nominal",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": null,
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "hx__si_la_respuesta_anterior_es_afirmativa_cuantas_personas_han_tenido_o_tienen_alzheimer_en_su_familia",
+  "etiqueta": "Si la respuesta anterior es afirmativa. ¿Cuántas personas han tenido o tienen Alzheimer en su familia ?",
+  "original": "Si la respuesta anterior es afirmativa. ¿Cuántas personas han tenido o tienen Alzheimer en su familia ? ",
+  "familia": "historia_clinica_genetica",
+  "fuente": "hxgen",
+  "tipo_analitico": "cuantitativa discreta",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": null,
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "hx__que_parentesco_tienen_con_usted",
+  "etiqueta": "¿Qué parentesco tienen con usted?",
+  "original": "¿Qué parentesco tienen con usted?",
+  "familia": "historia_clinica_genetica",
+  "fuente": "hxgen",
+  "tipo_analitico": "texto libre / alta cardinalidad",
+  "riesgo_leakage_aoo": "Revisar temporalidad",
+  "descripcion": null,
+  "etiquetas_codigos_dict": {}
+ },
+ {
+  "columna": "aoo",
+  "etiqueta": "Edad de inicio (AOO)",
+  "original": "AOO",
+  "familia": "Desenlace",
+  "fuente": "AOO revisada",
+  "tipo_analitico": "cuantitativa continua",
+  "riesgo_leakage_aoo": "desenlace",
+  "descripcion": "Edad de inicio observada; MI se presenta por separado.",
+  "etiquetas_codigos_dict": {}
+ }
+]

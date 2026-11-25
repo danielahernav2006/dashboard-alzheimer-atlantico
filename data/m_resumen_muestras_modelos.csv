@@ -1,0 +1,5 @@
+modelo,n,covariables,motivo_reduccion,n_menos_vs_inicial,reduccion_pct
+Genética + AOO,345,AOO disponible,Muestra inicial,0,0.0
+A completo,345,PC1–PC5,Usa toda la muestra inicial,0,0.0
+A comparable,334,PC1–PC5,Mismos casos completos que B,11,3.188405797101449
+B principal,334,"Sexo, educación agrupada como factor y PC1–PC5",Educación faltante: 11. Sexo faltante: 0,11,3.188405797101449

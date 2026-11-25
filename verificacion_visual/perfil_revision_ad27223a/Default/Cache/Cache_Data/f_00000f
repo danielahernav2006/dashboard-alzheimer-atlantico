@@ -1,0 +1,143 @@
+﻿variable,familia,prueba,n,medida_efecto,medida_efecto_nombre,ic95_efecto_inf,ic95_efecto_sup,p_valor,p_ajustado_fdr,temporalidad,riesgo_leakage_aoo
+EDAD,sociodemograficas,Spearman,370,0.8233019211805884,rho de Spearman,0.7608816296852178,0.8739164710970106,1.5532544877582756e-92,1.3979290389824481e-90,"Edad registrada al evaluar o recoger datos; temporalmente ligada a AOO, no covariable basal independiente",Bajo / revisar temporalidad
+Edad,historia_clinica_genetica,Spearman,369,0.8096248750892702,rho de Spearman,0.7482744749684074,0.8619623520094358,6.114812933532912e-87,2.7516658200898104e-85,"Edad registrada al evaluar o recoger datos; temporalmente ligada a AOO, no covariable basal independiente",Revisar temporalidad
+TSCOL,funcion_ejecutiva_atencion,Spearman,347,-0.2254863077519104,rho de Spearman,-0.3323574114406503,-0.1207847913683765,2.236023972476845e-05,0.000670807191743,Contemporánea o potencialmente posterior; fenotipo secundario,Potencial
+TSPAL,funcion_ejecutiva_atencion,Spearman,348,-0.2160412556767198,rho de Spearman,-0.3163617676308757,-0.1038435043562865,4.8282481262835325e-05,0.0010863558284137,Contemporánea o potencialmente posterior; fenotipo secundario,Potencial
+TSMYDORAL,memoria_semantica_conocimiento,Spearman,345,-0.2052470144102435,rho de Spearman,-0.3039834408095545,-0.1097972027305468,0.0001233294617988,0.0022199303123786,Contemporánea o potencialmente posterior; fenotipo secundario,Potencial
+TSMYD ESCR,memoria_semantica_conocimiento,Spearman,345,-0.1990336794544281,rho de Spearman,-0.3057984856786492,-0.0974616805126259,0.0001986220461595,0.0029793306923934,Contemporánea o potencialmente posterior; fenotipo secundario,Potencial
+Estado Habitacional,sociodemograficas,Kruskal-Wallis (k=6),363,0.0492860547756896,eta cuadrado basado en H (η²_H),0.0206320368432404,0.1166980121456343,0.000403342314354,0.0051858297559805,Temporalidad respecto al AOO no identificable con los datos disponibles,Bajo / revisar temporalidad
+Tipo de residencia,sociodemograficas,Kruskal-Wallis (k=2),367,0.0284511380953366,eta cuadrado basado en H (η²_H),0.0045376607530506,0.0688479608170369,0.0007405289065572,0.0083309501987694,Temporalidad respecto al AOO no identificable con los datos disponibles,Bajo / revisar temporalidad
+Estado civil,sociodemograficas,Kruskal-Wallis (k=4),343,0.0380015593287299,eta cuadrado basado en H (η²_H),0.0096276621871823,0.1031443383883772,0.0011986324742051,0.0119863247420511,Temporalidad respecto al AOO no identificable con los datos disponibles,Bajo / revisar temporalidad
+Nivel educativo,sociodemograficas,Spearman,358,-0.16856352659281,rho de Spearman,-0.2724485404893695,-0.0692630314973492,0.0013687861851951,0.0123190756667562,"Escolaridad alcanzada, probablemente anterior",Bajo
+TSPALCOL,funcion_ejecutiva_atencion,Spearman,347,-0.168639060540768,rho de Spearman,-0.2796501714625484,-0.0675464705527356,0.0016178368340126,0.0132368468237402,Contemporánea o potencialmente posterior; fenotipo secundario,Potencial
+FCROCOP,praxia_visuoconstruccion,Spearman,364,-0.1619204732849959,rho de Spearman,-0.2685240413231392,-0.0509216117100727,0.0019411228392847,0.0145584212946353,Contemporánea o potencialmente posterior; fenotipo secundario,Potencial
+Hipertensión arterial,metabolicos_otros,U de Mann-Whitney,369,0.1822129684711481,r biserial por rangos,0.0615459547888161,0.3028175193337298,0.0026042220912347,0.0180292298623944,Temporalidad respecto al AOO no identificable con los datos disponibles,Revisar temporalidad
+BENTON,memoria_semantica_conocimiento,Spearman,347,-0.1584586410427966,rho de Spearman,-0.2630239953123102,-0.0552348628763697,0.0030781007956839,0.0197877908293966,Contemporánea o potencialmente posterior; fenotipo secundario,Potencial
+TMTB,funcion_ejecutiva_atencion,Spearman,326,-0.1574677589595627,rho de Spearman,-0.2561395508365791,-0.059251204245955,0.0043714422524168,0.0262286535145013,Contemporánea o potencialmente posterior; fenotipo secundario,Potencial
+RELOJ,praxia_visuoconstruccion,Spearman,349,-0.1498060551557131,rho de Spearman,-0.2515457255178916,-0.0453511373857265,0.0050408770673628,0.0283549335039162,Contemporánea o potencialmente posterior; fenotipo secundario,Potencial
+LAWTON Y BRODY,funcional_afectivo_quejas,Spearman,370,0.1395702172913253,rho de Spearman,0.0317332508457424,0.238139175909073,0.007171471540738,0.0364570936389643,Contemporánea o potencialmente posterior; fenotipo secundario,Alto
+TWISCAT,funcion_ejecutiva_atencion,Spearman,350,-0.1431972231202162,rho de Spearman,-0.2437491166474395,-0.0404541006843348,0.0072914187277928,0.0364570936389643,Contemporánea o potencialmente posterior; fenotipo secundario,Potencial
+TOKEN,lenguaje,Spearman,357,-0.1388058794851061,rho de Spearman,-0.2530717315892488,-0.0358971572088013,0.0086347467419214,0.0401363089676083,Contemporánea o potencialmente posterior; fenotipo secundario,Potencial
+Si la respuesta anterior es afirmativa. ¿Cuántas personas han tenido o tienen Alzheimer en su familia ?,historia_clinica_genetica,Spearman,164,-0.2024420237578199,rho de Spearman,-0.3482490819266249,-0.0513023722455746,0.0093314015606669,0.0401363089676083,Historia familiar retrospectiva; revisar calidad y contexto,Revisar temporalidad
+CMWESCHLER,memoria,Spearman,359,-0.1369706001543087,rho de Spearman,-0.2358169500694169,-0.0329815816342565,0.0093651387591086,0.0401363089676083,Contemporánea o potencialmente posterior; fenotipo secundario,Potencial
+TWISCORRESCTAS,funcion_ejecutiva_atencion,Spearman,352,-0.1374098684737129,rho de Spearman,-0.242182474319342,-0.0263692715323565,0.0098479704570424,0.0402871518697191,Contemporánea o potencialmente posterior; fenotipo secundario,Potencial
+FCROEVO,praxia_visuoconstruccion,Spearman,359,-0.1338535302788565,rho de Spearman,-0.227014694329309,-0.0345801614424077,0.0111248727376812,0.0435321107126657,Contemporánea o potencialmente posterior; fenotipo secundario,Potencial
+Relación del Informante,informante_red_apoyo,Kruskal-Wallis (k=6),370,0.0263001013736578,eta cuadrado basado en H (η²_H),0.0085312229340477,0.0754379405164177,0.0123502918468982,0.0462271392810738,Temporalidad respecto al AOO no identificable con los datos disponibles,Revisar temporalidad
+FVFs,fluidez_verbal,Spearman,356,-0.1317597930492771,rho de Spearman,-0.2353215623824343,-0.0270618622036669,0.0128408720225205,0.0462271392810738,Contemporánea o potencialmente posterior; fenotipo secundario,Potencial
+"¿Hay miembros afectados de la familia (padres biológicos, hermanos consanguíneos completos (comparten ambos padres), o hijos biológicos)?",historia_familiar,Kruskal-Wallis (k=2),354,0.0122784948118691,eta cuadrado basado en H (η²_H),,,0.0210574642108645,0.0728912222683771,Historia familiar retrospectiva; revisar calidad y contexto,Bajo / revisar temporalidad
+Fibrilación auricular,cardiovasculares_cerebrovasculares,U de Mann-Whitney,369,0.5293847566574839,r biserial por rangos,,,0.0260843545511944,0.0869478485039813,Temporalidad respecto al AOO no identificable con los datos disponibles,Revisar temporalidad
+Nivel de independencia,sociodemograficas,Spearman,368,0.1109620471457805,rho de Spearman,,,0.0333408344455254,0.1071669678606175,Contemporánea o potencialmente posterior; fenotipo secundario,Bajo / revisar temporalidad
+Ansiedad,psiquiatricos,U de Mann-Whitney,370,-0.5468493150684932,r biserial por rangos,,,0.0356620566746622,0.1106753483006759,Temporalidad respecto al AOO no identificable con los datos disponibles,Revisar temporalidad
+TBN espontanea,lenguaje,Spearman,362,-0.1025554199559558,rho de Spearman,,,0.0512184608400659,0.1536553825201977,Contemporánea o potencialmente posterior; fenotipo secundario,Potencial
+Perdida Categoria FVSC,fluidez_verbal,Spearman,360,-0.0992855137704377,rho de Spearman,,,0.0598481054789339,0.1690676802124616,Contemporánea o potencialmente posterior; fenotipo secundario,Potencial
+"Si el informante no vive con el sujeto, ¿con qué frecuencia tiene contacto telefónico con él?",informante_red_apoyo,Spearman,245,-0.1202852167352854,rho de Spearman,,,0.0601129529644308,0.1690676802124616,Temporalidad respecto al AOO no identificable con los datos disponibles,Revisar temporalidad
+TAAVREY7,memoria,Spearman,361,-0.0951936884407203,rho de Spearman,,,0.0708384425971983,0.1931957525378138,Contemporánea o potencialmente posterior; fenotipo secundario,Potencial
+Perdida Categoria FVFa,fluidez_verbal,Spearman,357,-0.093214140321843,rho de Spearman,,,0.0785972306537948,0.208051492907104,Contemporánea o potencialmente posterior; fenotipo secundario,Potencial
+FVSa,fluidez_verbal,Spearman,360,-0.0892227589116663,rho de Spearman,,,0.0909575536871548,0.2338908523383982,Contemporánea o potencialmente posterior; fenotipo secundario,Potencial
+FVFa,fluidez_verbal,Spearman,357,-0.0881755350497518,rho de Spearman,,,0.0962271520158161,0.2405678800395402,Contemporánea o potencialmente posterior; fenotipo secundario,Potencial
+FVFf,fluidez_verbal,Spearman,357,-0.0834351448790065,rho de Spearman,,,0.11556216733116,0.2810971637784973,Contemporánea o potencialmente posterior; fenotipo secundario,Potencial
+"Si el informante no vive con el sujeto, ¿con qué frecuencia visita personalmente al sujeto?",informante_red_apoyo,Spearman,246,-0.0995854464824918,rho de Spearman,,,0.11926729959437,0.2824751832498237,Temporalidad respecto al AOO no identificable con los datos disponibles,Revisar temporalidad
+Tiempo (años de conocerce),informante_red_apoyo,Spearman,137,0.1317005229117791,rho de Spearman,,,0.1250097323794594,0.2884839977987525,Temporalidad respecto al AOO no identificable con los datos disponibles,Revisar temporalidad
+Talla,antropometria,Spearman,325,0.083528757350769,rho de Spearman,,,0.1329264328491579,0.2990844739106053,Temporalidad respecto al AOO no identificable con los datos disponibles,Revisar temporalidad
+TWISENP,funcion_ejecutiva_atencion,Spearman,349,-0.0796325084262697,rho de Spearman,,,0.1376287230222564,0.3021118310244653,Contemporánea o potencialmente posterior; fenotipo secundario,Potencial
+Perseveraciones FVFs,fluidez_verbal,Spearman,357,-0.0771094743610668,rho de Spearman,,,0.1459472400660296,0.3127440858557778,Contemporánea o potencialmente posterior; fenotipo secundario,Potencial
+TBN total,lenguaje,Spearman,362,-0.0753813996103229,rho de Spearman,,,0.1523426055701218,0.3180917884015949,Contemporánea o potencialmente posterior; fenotipo secundario,Potencial
+TAAVREY1,memoria,Spearman,362,-0.0746679108466511,rho de Spearman,,,0.1562724586177146,0.3180917884015949,Contemporánea o potencialmente posterior; fenotipo secundario,Potencial
+TAAVREY2,memoria,Spearman,362,-0.0741724960574651,rho de Spearman,,,0.1590458942007974,0.3180917884015949,Contemporánea o potencialmente posterior; fenotipo secundario,Potencial
+TAAVREY3,memoria,Spearman,362,-0.0692190297736188,rho de Spearman,,,0.1888450148689646,0.3694793769175395,Contemporánea o potencialmente posterior; fenotipo secundario,Potencial
+MMSE,cognicion_global,Spearman,367,-0.0653487777223501,rho de Spearman,,,0.2116770715189297,0.4053390731213548,Contemporánea o potencialmente posterior; fenotipo secundario,Alto
+genero,sociodemograficas,U de Mann-Whitney,370,-0.0785764505005188,r biserial por rangos,,,0.2217511102454727,0.4157833317102615,Basal,Bajo
+¿Vive el informante con el sujeto?,informante_red_apoyo,U de Mann-Whitney,301,0.1027466206499856,r biserial por rangos,,,0.2269949851480842,0.4169295645577058,Temporalidad respecto al AOO no identificable con los datos disponibles,Revisar temporalidad
+Peso en Kilogramo,historia_clinica_genetica,Spearman,274,0.0719983350436655,rho de Spearman,,,0.2348813577793977,0.4227864440029159,Temporalidad respecto al AOO no identificable con los datos disponibles,Revisar temporalidad
+BARTHEL,funcional_afectivo_quejas,Spearman,370,-0.0576663278006506,rho de Spearman,,,0.268552723952956,0.4631354691804898,Contemporánea o potencialmente posterior; fenotipo secundario,Alto
+TBN semántica,lenguaje,Spearman,362,0.0577604309089221,rho de Spearman,,,0.2730430507282488,0.4631354691804898,Contemporánea o potencialmente posterior; fenotipo secundario,Potencial
+Ataque cardiaco o paro cardíaco,cardiovasculares_cerebrovasculares,U de Mann-Whitney,369,-0.2607897153351699,r biserial por rangos,,,0.2734701417414152,0.4631354691804898,Temporalidad respecto al AOO no identificable con los datos disponibles,Revisar temporalidad
+TAAVREY5,memoria,Spearman,362,-0.0565945062205345,rho de Spearman,,,0.2828582034944658,0.4631354691804898,Contemporánea o potencialmente posterior; fenotipo secundario,Potencial
+DIABETES,metabolicos_otros,Kruskal-Wallis (k=3),367,0.0014407261690502,eta cuadrado basado en H (η²_H),,,0.2830272311658549,0.4631354691804898,Temporalidad respecto al AOO no identificable con los datos disponibles,Revisar temporalidad
+IKATZ,funcional_afectivo_quejas,Spearman,370,0.0550354232419106,rho de Spearman,,,0.2910386302377272,0.4658160324959676,Contemporánea o potencialmente posterior; fenotipo secundario,Alto
+Perseveraciones FVSC,fluidez_verbal,Spearman,360,-0.055280862310344,rho de Spearman,,,0.2955458440781723,0.4658160324959676,Contemporánea o potencialmente posterior; fenotipo secundario,Potencial
+¿El sujeto ha fumado más de 100 cigarros / cigarrillos en su vida?,tabaquismo,U de Mann-Whitney,356,0.0726399331662489,r biserial por rangos,,,0.3026800439489361,0.4658160324959676,Temporalidad respecto al AOO no identificable con los datos disponibles,Revisar temporalidad
+Número total de años que ha fumado el sujeto (99 = desconocido):,tabaquismo,Spearman,337,0.0559989619945115,rho de Spearman,,,0.3053682879695787,0.4658160324959676,Temporalidad respecto al AOO no identificable con los datos disponibles,Revisar temporalidad
+Perdida Categoria FVFf,fluidez_verbal,Spearman,357,-0.0536997492281816,rho de Spearman,,,0.3116342932455996,0.4674514398683995,Contemporánea o potencialmente posterior; fenotipo secundario,Potencial
+Perdida Categoria FVSA,fluidez_verbal,Spearman,360,0.0522413675394275,rho de Spearman,,,0.322938117091198,0.4764660743968495,Contemporánea o potencialmente posterior; fenotipo secundario,Potencial
+FVSc,fluidez_verbal,Spearman,360,-0.0498365385852344,rho de Spearman,,,0.3457426336016546,0.5018844681314342,Contemporánea o potencialmente posterior; fenotipo secundario,Potencial
+CANCER,metabolicos_otros,U de Mann-Whitney,368,0.2341597796143251,r biserial por rangos,,,0.3690307416178755,0.5211646685523621,Temporalidad respecto al AOO no identificable con los datos disponibles,Revisar temporalidad
+FAST,funcional_afectivo_quejas,Spearman,370,0.0465841522120336,rho de Spearman,,,0.3715802296316021,0.5211646685523621,Contemporánea o potencialmente posterior; fenotipo secundario,Alto
+Depresión,psiquiatricos,U de Mann-Whitney,369,-0.1953433307024468,r biserial por rangos,,,0.3763967050655948,0.5211646685523621,Temporalidad respecto al AOO no identificable con los datos disponibles,Revisar temporalidad
+Apnea del sueño U OTRO,metabolicos_otros,U de Mann-Whitney,370,-0.2186301369863013,r biserial por rangos,,,0.4016835625613328,0.5477503125836357,Temporalidad respecto al AOO no identificable con los datos disponibles,Revisar temporalidad
+QUEJAS SUBJETIVAS,funcional_afectivo_quejas,Spearman,365,-0.0430093796146195,rho de Spearman,,,0.4126416609796218,0.5542947684800891,Contemporánea o potencialmente posterior; fenotipo secundario,Alto
+Marcapasos y/o desfibrilador,cardiovasculares_cerebrovasculares,U de Mann-Whitney,370,0.2104109589041095,r biserial por rangos,,,0.4196595461121706,0.5554317522072846,Temporalidad respecto al AOO no identificable con los datos disponibles,Revisar temporalidad
+TEAC,funcion_ejecutiva_atencion,Spearman,343,-0.0422024603782946,rho de Spearman,,,0.4359240599186739,0.5685965998939225,Contemporánea o potencialmente posterior; fenotipo secundario,Potencial
+Perdida Categoria FVFs,fluidez_verbal,Spearman,357,0.0360457114718045,rho de Spearman,,,0.4972038925469071,0.6315429004084783,Contemporánea o potencialmente posterior; fenotipo secundario,Potencial
+YESAVAGE,funcional_afectivo_quejas,Spearman,354,0.0361139434999333,rho de Spearman,,,0.4982171769889106,0.6315429004084783,Contemporánea o potencialmente posterior; fenotipo secundario,Alto
+Artrosis,metabolicos_otros,U de Mann-Whitney,370,0.0739710144927536,r biserial por rangos,,,0.5369653626632329,0.665580794036355,Temporalidad respecto al AOO no identificable con los datos disponibles,Revisar temporalidad
+Perseveraciones FVSA,fluidez_verbal,Spearman,360,0.0324134771942382,rho de Spearman,,,0.5398599773850434,0.665580794036355,Contemporánea o potencialmente posterior; fenotipo secundario,Potencial
+TAAVREY REC no,memoria,Spearman,358,-0.0276667190428055,rho de Spearman,,,0.6018457680109903,0.7244427177054011,Contemporánea o potencialmente posterior; fenotipo secundario,Potencial
+Osteoporosis,metabolicos_otros,U de Mann-Whitney,370,0.0963888888888888,r biserial por rangos,,,0.603702264754501,0.7244427177054011,Temporalidad respecto al AOO no identificable con los datos disponibles,Revisar temporalidad
+Perseveraciones FVFa,fluidez_verbal,Spearman,357,-0.0257063220850676,rho de Spearman,,,0.6283267814539544,0.739118888938063,Contemporánea o potencialmente posterior; fenotipo secundario,Potencial
+Enfermedad tiroidea,metabolicos_otros,U de Mann-Whitney,370,0.062218583708555,r biserial por rangos,,,0.6323572716470094,0.739118888938063,Temporalidad respecto al AOO no identificable con los datos disponibles,Revisar temporalidad
+Familiar afectado,historia_familiar,Kruskal-Wallis (k=6),179,-0.0096378310506686,eta cuadrado basado en H (η²_H),,,0.6488460129287953,0.7486684764563022,Historia familiar retrospectiva; revisar calidad y contexto,Bajo
+TAAVREY4,memoria,Spearman,362,-0.0214413359845674,rho de Spearman,,,0.6843127588727043,0.7641504602035023,Contemporánea o potencialmente posterior; fenotipo secundario,Potencial
+TMTA,funcion_ejecutiva_atencion,Spearman,342,-0.0218471801432791,rho de Spearman,,,0.6872468823504354,0.7641504602035023,Contemporánea o potencialmente posterior; fenotipo secundario,Potencial
+Perseveraciones FVFf,fluidez_verbal,Spearman,357,-0.0213448344017886,rho de Spearman,,,0.6877354141831521,0.7641504602035023,Contemporánea o potencialmente posterior; fenotipo secundario,Potencial
+TWISEP,funcion_ejecutiva_atencion,Spearman,349,-0.0206876861381231,rho de Spearman,,,0.7001391960920199,0.7684454591253878,Contemporánea o potencialmente posterior; fenotipo secundario,Potencial
+TAAVREY REC si,memoria,Spearman,358,0.0183648540722848,rho de Spearman,,,0.7291222780337626,0.7906145183498631,Contemporánea o potencialmente posterior; fenotipo secundario,Potencial
+MoCA,cognicion_global,Spearman,368,-0.0143114214575498,rho de Spearman,,,0.7843761437818432,0.840403011194832,Contemporánea o potencialmente posterior; fenotipo secundario,Alto
+TAAVREY6,memoria,Spearman,362,-0.0134012251729494,rho de Spearman,,,0.7994142345017479,0.8456482673168365,Contemporánea o potencialmente posterior; fenotipo secundario,Potencial
+TAAVREYB1,memoria,Spearman,362,-0.0128116126935201,rho de Spearman,,,0.8080638998805327,0.8456482673168365,Contemporánea o potencialmente posterior; fenotipo secundario,Potencial
+ENFERMEDAD CEREBRO-VASCULAR (ECV),cardiovasculares_cerebrovasculares,U de Mann-Whitney,369,0.0406685236768802,r biserial por rangos,,,0.8273249007194976,0.8558533455718941,Temporalidad respecto al AOO no identificable con los datos disponibles,Revisar temporalidad
+ESC DETERIOROGLOBAL,cognicion_global,Spearman,369,0.0102367520312358,rho de Spearman,,,0.8446261725571583,0.8638222219334574,Contemporánea o potencialmente posterior; fenotipo secundario,Alto
+Altura en centímetro,historia_clinica_genetica,Spearman,321,-0.0093869551114283,rho de Spearman,,,0.8669540435098538,0.8766951001785038,Temporalidad respecto al AOO no identificable con los datos disponibles,Revisar temporalidad
+Peso,antropometria,Spearman,280,0.0080662511637472,rho de Spearman,,,0.8931079635205883,0.8931079635205883,Temporalidad respecto al AOO no identificable con los datos disponibles,Revisar temporalidad
+mes y año de nacimiento,sociodemograficas,,367,,,,,,,Temporalidad respecto al AOO no identificable con los datos disponibles,Bajo / revisar temporalidad
+IDIOMA,sociodemograficas,,370,,,,,,,Temporalidad respecto al AOO no identificable con los datos disponibles,Bajo
+OTRO IDOMA,sociodemograficas,,370,,,,,,,Temporalidad respecto al AOO no identificable con los datos disponibles,Bajo
+Lateralidad,sociodemograficas,,365,,,,,,,Temporalidad respecto al AOO no identificable con los datos disponibles,Bajo
+MEDICAMENTO DEL SUJETO 1,medicamentos,,290,,,,,,,Temporalidad respecto al AOO no identificable con los datos disponibles,Revisar temporalidad
+MEDICAMENTO DEL SUJETO 2,medicamentos,,228,,,,,,,Temporalidad respecto al AOO no identificable con los datos disponibles,Revisar temporalidad
+MEDICAMENTO DEL SUJETO 3,medicamentos,,149,,,,,,,Temporalidad respecto al AOO no identificable con los datos disponibles,Revisar temporalidad
+MEDICAMENTO DEL SUJETO 4,medicamentos,,103,,,,,,,Temporalidad respecto al AOO no identificable con los datos disponibles,Revisar temporalidad
+MEDICAMENTO DEL SUJETO 5,medicamentos,,65,,,,,,,Temporalidad respecto al AOO no identificable con los datos disponibles,Revisar temporalidad
+MEDICAMENTO DEL SUJETO 6,medicamentos,,38,,,,,,,Temporalidad respecto al AOO no identificable con los datos disponibles,Revisar temporalidad
+MEDICAMENTO DEL SUJETO 7,medicamentos,,24,,,,,,,Temporalidad respecto al AOO no identificable con los datos disponibles,Revisar temporalidad
+MEDICAMENTO DEL SUJETO 8,medicamentos,,15,,,,,,,Temporalidad respecto al AOO no identificable con los datos disponibles,Revisar temporalidad
+MEDICAMENTO DEL SUJETO 9,medicamentos,,14,,,,,,,Temporalidad respecto al AOO no identificable con los datos disponibles,Revisar temporalidad
+El sujeto ha fumado en los pasados 30 días,tabaquismo,,357,,,,,,,Temporalidad respecto al AOO no identificable con los datos disponibles,Revisar temporalidad
+Angioplastía/ endarterectomía/ stent,cardiovasculares_cerebrovasculares,,370,,,,,,,Temporalidad respecto al AOO no identificable con los datos disponibles,Revisar temporalidad
+Bypass cardíaco/coronario,cardiovasculares_cerebrovasculares,,370,,,,,,,Temporalidad respecto al AOO no identificable con los datos disponibles,Revisar temporalidad
+Insuficiencia cardíaca congestiva,cardiovasculares_cerebrovasculares,,366,,,,,,,Temporalidad respecto al AOO no identificable con los datos disponibles,Revisar temporalidad
+PARKINSON,neurologicos,,367,,,,,,,Temporalidad respecto al AOO no identificable con los datos disponibles,Revisar temporalidad
+CONVULSIONES,neurologicos,,366,,,,,,,Temporalidad respecto al AOO no identificable con los datos disponibles,Revisar temporalidad
+TRAUMATISMO DE CRÁNEO-ENCEFÁLICO (TCE),neurologicos,,370,,,,,,,Temporalidad respecto al AOO no identificable con los datos disponibles,Revisar temporalidad
+Hipercholesterolemia,metabolicos_otros,,365,,,,,,,Temporalidad respecto al AOO no identificable con los datos disponibles,Revisar temporalidad
+NIVELES DE VITAMINA D,metabolicos_otros,,370,,,,,,,Temporalidad respecto al AOO no identificable con los datos disponibles,Revisar temporalidad
+Deficiencia de B12,metabolicos_otros,,369,,,,,,,Temporalidad respecto al AOO no identificable con los datos disponibles,Revisar temporalidad
+Artritis,metabolicos_otros,,368,,,,,,,Temporalidad respecto al AOO no identificable con los datos disponibles,Revisar temporalidad
+Incontinencia — urinaria,metabolicos_otros,,367,,,,,,,Temporalidad respecto al AOO no identificable con los datos disponibles,Revisar temporalidad
+Incontinencia — fecal,metabolicos_otros,,369,,,,,,,Temporalidad respecto al AOO no identificable con los datos disponibles,Revisar temporalidad
+Trastorno de estrés postraumático (TEPT),psiquiatricos,,369,,,,,,,Temporalidad respecto al AOO no identificable con los datos disponibles,Revisar temporalidad
+Trastorno bipolar,psiquiatricos,,370,,,,,,,Temporalidad respecto al AOO no identificable con los datos disponibles,Revisar temporalidad
+Esquizofrenia,psiquiatricos,,367,,,,,,,Temporalidad respecto al AOO no identificable con los datos disponibles,Revisar temporalidad
+Trastorno obsesivo-compulsivo (TOC),psiquiatricos,,370,,,,,,,Temporalidad respecto al AOO no identificable con los datos disponibles,Revisar temporalidad
+"Trastornos neuropsiquiátricos del desarrollo (por ejemplo, trastorno del espectro autista (TEA), déficit de atención con hiperactividad (TDAH), dislexia)",psiquiatricos,,370,,,,,,,Temporalidad respecto al AOO no identificable con los datos disponibles,Revisar temporalidad
+Ciudad o municipio de residencia,historia_clinica_genetica,,370,,,,,,,Temporalidad respecto al AOO no identificable con los datos disponibles,Revisar temporalidad
+Enfermedad actual,historia_clinica_genetica,,370,,,,,,,Temporalidad respecto al AOO no identificable con los datos disponibles,Alto
+¿Qué síntomas presenta?,historia_clinica_genetica,,370,,,,,,,Temporalidad respecto al AOO no identificable con los datos disponibles,Revisar temporalidad
+El Paciente necesita apoyo para realizar las siguientes tareas,historia_clinica_genetica,,344,,,,,,,Contemporánea o potencialmente posterior; fenotipo secundario,Alto
+Indique que estudios previos le han realizado.,historia_clinica_genetica,,361,,,,,,,Temporalidad respecto al AOO no identificable con los datos disponibles,Revisar temporalidad
+"Si le han realizado estudios previos, ¿Encontraron hallazgos? ¿Cuales?",historia_clinica_genetica,,352,,,,,,,Temporalidad respecto al AOO no identificable con los datos disponibles,Revisar temporalidad
+Antecedentes,historia_clinica_genetica,,279,,,,,,,Temporalidad respecto al AOO no identificable con los datos disponibles,Revisar temporalidad
+¿Actualmente se encuentra en algún tratamiento farmacológico?,historia_clinica_genetica,,369,,,,,,,Temporalidad respecto al AOO no identificable con los datos disponibles,Revisar temporalidad
+"Si la respuesta anterior fue SI, ¿Qué medicamentos está consumiendo?",historia_clinica_genetica,,305,,,,,,,Temporalidad respecto al AOO no identificable con los datos disponibles,Revisar temporalidad
+¿Usted fuma?,historia_clinica_genetica,,370,,,,,,,Temporalidad respecto al AOO no identificable con los datos disponibles,Revisar temporalidad
+"Si respuesta anterior fue afirmativa, ¿Hace cuantos años fuma?",historia_clinica_genetica,,15,,,,,,,Temporalidad respecto al AOO no identificable con los datos disponibles,Revisar temporalidad
+¿Con que frecuencia consume alcohol?,historia_clinica_genetica,,368,,,,,,,Temporalidad respecto al AOO no identificable con los datos disponibles,Revisar temporalidad
+¿Le han realizado algún procedimiento quirúrgico?,historia_clinica_genetica,,370,,,,,,,Temporalidad respecto al AOO no identificable con los datos disponibles,Revisar temporalidad
+Si la respuesta anterior fue SI. ¿Qué cirugía le han realizado?,historia_clinica_genetica,,74,,,,,,,Temporalidad respecto al AOO no identificable con los datos disponibles,Revisar temporalidad
+¿En que fecha le realizaron la cirugía?,historia_clinica_genetica,,57,,,,,,,Temporalidad respecto al AOO no identificable con los datos disponibles,Revisar temporalidad
+¿Sufre de algún tipo de alergia?,historia_clinica_genetica,,370,,,,,,,Temporalidad respecto al AOO no identificable con los datos disponibles,Revisar temporalidad
+Si la respuesta anterior es SI. ¿A que es alérgico?,historia_clinica_genetica,,0,,,,,,,Temporalidad respecto al AOO no identificable con los datos disponibles,Revisar temporalidad
+¿Alguien más en su familia tiene o tuvo Alzheimer?,historia_clinica_genetica,,341,,,,,,,Historia familiar retrospectiva; revisar calidad y contexto,Revisar temporalidad
+¿Qué parentesco tienen con usted?,historia_clinica_genetica,,140,,,,,,,Historia familiar retrospectiva; revisar calidad y contexto,Revisar temporalidad
+¿Hay valoración NPS anterior?,metadatos_nps,,360,,,,,,,Contemporánea o potencialmente posterior; fenotipo secundario,Potencial
+Si tiene anteriormente valoración NPS ¿en que fecha se aplico?,metadatos_nps,,3,,,,,,,Contemporánea o potencialmente posterior; fenotipo secundario,Potencial

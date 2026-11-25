@@ -1,0 +1,39 @@
+{
+  "estado": "Diseño anterior restaurado",
+  "archivos_restaurados": [
+    "app.py",
+    "components/ui.py",
+    "utils/theme.py",
+    "assets/css/style.css",
+    ".streamlit/config.toml",
+    "README.md",
+    "pages/asoc_gwas.py",
+    "pages/asoc_sensibilidad.py",
+    "pages/datos_bivariado.py",
+    "pages/datos_univariado.py",
+    "pages/gen_pca.py",
+    "pages/inicio.py"
+  ],
+  "piezas_visuales_identicas_al_estado_anterior": [
+    "app.py",
+    "components/ui.py",
+    "utils/theme.py",
+    "assets/css/style.css",
+    ".streamlit/config.toml",
+    "pages/inicio.py"
+  ],
+  "funcionalidad_conservada": [
+    "Fuentes definitivas y panel nuevo",
+    "Rutas AOO observada y MI",
+    "PCA 3D sin identificadores",
+    "GRM–LOCO, GWAS y ambos marcadores APOE",
+    "Selector de distribución observada/MI",
+    "Control del número de variables del ranking"
+  ],
+  "datos_y_notebooks_intactos": 92,
+  "analisis_reejecutados": false,
+  "paginas_verificadas": 18,
+  "interacciones_verificadas": 12,
+  "paginas_verificadas_Chrome": 8,
+  "url_local": "http://127.0.0.1:8502"
+}

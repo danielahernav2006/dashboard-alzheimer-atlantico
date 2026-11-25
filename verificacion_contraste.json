@@ -1,0 +1,51 @@
+[
+  {
+    "elemento": "Texto general",
+    "texto": "#251F25",
+    "fondo": "#FAF8F6",
+    "contraste": 15.23,
+    "AA_texto_normal": true
+  },
+  {
+    "elemento": "Títulos",
+    "texto": "#641B42",
+    "fondo": "#FAF8F6",
+    "contraste": 11.15,
+    "AA_texto_normal": true
+  },
+  {
+    "elemento": "Enlaces",
+    "texto": "#A52160",
+    "fondo": "#FFFFFF",
+    "contraste": 7.03,
+    "AA_texto_normal": true
+  },
+  {
+    "elemento": "Navegación activa",
+    "texto": "#A52160",
+    "fondo": "#F6E8EF",
+    "contraste": 5.93,
+    "AA_texto_normal": true
+  },
+  {
+    "elemento": "Genética",
+    "texto": "#285C70",
+    "fondo": "#FFFFFF",
+    "contraste": 7.36,
+    "AA_texto_normal": true
+  },
+  {
+    "elemento": "MI/sensibilidad",
+    "texto": "#26766C",
+    "fondo": "#FFFFFF",
+    "contraste": 5.4,
+    "AA_texto_normal": true
+  },
+  {
+    "elemento": "Notas",
+    "texto": "#6E6670",
+    "fondo": "#FAF8F6",
+    "contraste": 5.22,
+    "AA_texto_normal": true
+  }
+]

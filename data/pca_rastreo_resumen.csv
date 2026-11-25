@@ -1,0 +1,4 @@
+caso_cohorte,diagnostico_enlace,n
+False,Fuera de cohorte maestra; Dx neuro documentado AD+,2
+False,ID fuera de cohorte maestra; diagnóstico pendiente,7
+True,Caso con AOO observada,4

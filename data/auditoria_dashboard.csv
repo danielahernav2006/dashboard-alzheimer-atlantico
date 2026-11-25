@@ -1,0 +1,198 @@
+Control,Estado
+01_preprocesamiento_definitivo.ipynb documenta salidas/imputacion_aoo,PASS
+02_univariado_definitivo.ipynb documenta salidas/univariado_mi,PASS
+03_bivariado_definitivo.ipynb documenta salidas/bivariado_mi_revisado,PASS
+04_preparacion_genetica_definitivo.ipynb documenta salidas/genetica_panel_nuevo_MI_integrado,PASS
+salida_PCA coincide con salida del notebook,PASS
+salida_GRM coincide con salida del notebook,PASS
+salida_GWAS coincide con salida del notebook,PASS
+Cohorte 391 y AOO original 370 + 21,PASS
+M1b seleccionada,PASS
+Veinte imputaciones,PASS
+"MI 1: mismos IDs, observados intactos y flag",PASS
+"MI 2: mismos IDs, observados intactos y flag",PASS
+"MI 3: mismos IDs, observados intactos y flag",PASS
+"MI 4: mismos IDs, observados intactos y flag",PASS
+"MI 5: mismos IDs, observados intactos y flag",PASS
+"MI 6: mismos IDs, observados intactos y flag",PASS
+"MI 7: mismos IDs, observados intactos y flag",PASS
+"MI 8: mismos IDs, observados intactos y flag",PASS
+"MI 9: mismos IDs, observados intactos y flag",PASS
+"MI 10: mismos IDs, observados intactos y flag",PASS
+"MI 11: mismos IDs, observados intactos y flag",PASS
+"MI 12: mismos IDs, observados intactos y flag",PASS
+"MI 13: mismos IDs, observados intactos y flag",PASS
+"MI 14: mismos IDs, observados intactos y flag",PASS
+"MI 15: mismos IDs, observados intactos y flag",PASS
+"MI 16: mismos IDs, observados intactos y flag",PASS
+"MI 17: mismos IDs, observados intactos y flag",PASS
+"MI 18: mismos IDs, observados intactos y flag",PASS
+"MI 19: mismos IDs, observados intactos y flag",PASS
+"MI 20: mismos IDs, observados intactos y flag",PASS
+Bivariado: 142 / 90 / 25,PASS
+23 observadas FDR recurrentes 20/20,PASS
+nivel_educativo signo20 FDR19,PASS
+fvfs signo20 FDR19,PASS
+Panel nuevo 18391 SNPs,PASS
+Muestra genética alineada,PASS
+PCA corresponde a todos los genotipados,PASS
+18254 marcadores de estructura,PASS
+"Dosis, PCs y selección alineados",PASS
+Diagnósticos y educación recuperados,PASS
+Mismo universo B3,PASS
+Mismo universo B10,PASS
+Mismo universo A,PASS
+"Modelo B: 334, 18391, cero corregidas",PASS
+"MI:18 adicionales, 352 por base,20 corridas,cero corregidas",PASS
+Sin columnas de identidad: aoo_distribuciones_MI.csv,PASS
+Sin columnas de identidad: apoe_combinaciones_resumen.csv,PASS
+Sin columnas de identidad: apoe_individual.csv,PASS
+Sin columnas de identidad: b_auditoria_participacion_senales_m1b.csv,PASS
+Sin columnas de identidad: b_auditoria_predictores_m1b.csv,PASS
+Sin columnas de identidad: b_concordancia_edades_fuentes.csv,PASS
+Sin columnas de identidad: b_dunn_observado.csv,PASS
+Sin columnas de identidad: b_fdr_por_imputacion.csv,PASS
+Sin columnas de identidad: b_hipertension_contraste_codigos.csv,PASS
+Sin columnas de identidad: b_motivos_no_evaluacion.csv,PASS
+Sin columnas de identidad: b_resultados_bivariados_observados.csv,PASS
+Sin columnas de identidad: b_resumen_dunn_mi.csv,PASS
+Sin columnas de identidad: b_resumen_estabilidad_bivariada_mi.csv,PASS
+Sin columnas de identidad: b_resumen_global_bivariado_mi.csv,PASS
+Sin columnas de identidad: b_senales_emergentes_mi.csv,PASS
+Sin columnas de identidad: cohort_flow.csv,PASS
+Sin columnas de identidad: cov_educacion_agrupada.csv,PASS
+Sin columnas de identidad: cov_educacion_codigos.csv,PASS
+Sin columnas de identidad: cov_educacion_por_sexo.csv,PASS
+Sin columnas de identidad: eda_bivariado.csv,PASS
+Sin columnas de identidad: grm_concordancia_extremos.csv,PASS
+Sin columnas de identidad: grm_heatmap_bloques.csv,PASS
+Sin columnas de identidad: grm_hist_diagonal.csv,PASS
+Sin columnas de identidad: grm_hist_offdiag.csv,PASS
+Sin columnas de identidad: grm_resumen.csv,PASS
+Sin columnas de identidad: grm_umbrales.csv,PASS
+Sin columnas de identidad: gwas_MI_elegibilidad.csv,PASS
+Sin columnas de identidad: gwas_MI_estabilidad.csv,PASS
+Sin columnas de identidad: gwas_MI_resumen.csv,PASS
+Sin columnas de identidad: gwas_resultados.csv.gz,PASS
+Sin columnas de identidad: g_calidad_histogramas.csv,PASS
+Sin columnas de identidad: g_comparacion_clinica_extremos.csv,PASS
+Sin columnas de identidad: g_comparacion_paneles_estructura.csv,PASS
+Sin columnas de identidad: g_denominadores_integrados.csv,PASS
+Sin columnas de identidad: g_qc_comparado.csv,PASS
+Sin columnas de identidad: g_qc_informado_y_fuentes.csv,PASS
+Sin columnas de identidad: g_resumen_calidad.csv,PASS
+Sin columnas de identidad: g_resumen_cruce.csv,PASS
+Sin columnas de identidad: g_resumen_variantes.csv,PASS
+Sin columnas de identidad: g_snps_por_cromosoma.csv,PASS
+Sin columnas de identidad: m_auditoria_cromosomas.csv,PASS
+Sin columnas de identidad: m_comparacion_AB_muestra_comun.csv,PASS
+Sin columnas de identidad: m_comparacion_sensibilidad.csv,PASS
+Sin columnas de identidad: m_gwas_top_variantes.csv,PASS
+Sin columnas de identidad: m_modelo_nulo_lmm.csv,PASS
+Sin columnas de identidad: m_nulos_globales_pcs.csv,PASS
+Sin columnas de identidad: m_nulos_loco_diagnostico.csv,PASS
+Sin columnas de identidad: m_perfil_reml.csv,PASS
+Sin columnas de identidad: m_resumen_grm_loco.csv,PASS
+Sin columnas de identidad: m_resumen_gwas.csv,PASS
+Sin columnas de identidad: m_resumen_muestras_modelos.csv,PASS
+Sin columnas de identidad: m_vif_modelo_B.csv,PASS
+Sin columnas de identidad: pca_analisis_paralelo.csv,PASS
+Sin columnas de identidad: pca_calidad_extremos.csv,PASS
+Sin columnas de identidad: pca_individuos.csv,PASS
+Sin columnas de identidad: pca_rastreo_resumen.csv,PASS
+Sin columnas de identidad: pca_varianza.csv,PASS
+Sin columnas de identidad: q_auditoria_ids.csv,PASS
+Sin columnas de identidad: q_cobertura_fuentes.csv,PASS
+Sin columnas de identidad: q_codigos_especiales.csv,PASS
+Sin columnas de identidad: q_consistencia_aoo.csv,PASS
+Sin columnas de identidad: q_estado_aoo.csv,PASS
+Sin columnas de identidad: q_hallazgos_limpieza.csv,PASS
+Sin columnas de identidad: q_missing_variables.csv,PASS
+Sin columnas de identidad: q_modificaciones.csv,PASS
+Sin columnas de identidad: q_reduccion_neuro.csv,PASS
+Sin columnas de identidad: q_resumen_fuentes.csv,PASS
+Sin columnas de identidad: q_revision_pendiente.csv,PASS
+Sin columnas de identidad: trazabilidad_paginas.csv,PASS
+Sin columnas de identidad: uni_categorias.csv,PASS
+Sin columnas de identidad: uni_descriptivos.csv,PASS
+Sin columnas de identidad: uni_histogramas.csv,PASS
+Sin columnas de identidad: u_comparacion_aoo_observado_vs_mi.csv,PASS
+Sin columnas de identidad: u_descriptivos_aoo_por_imputacion.csv,PASS
+Sin columnas de identidad: u_media_aoo_rubin.csv,PASS
+Sin columnas de identidad: u_outliers_aoo_por_imputacion.csv,PASS
+Sin columnas de identidad: u_resumen_descriptivos_aoo_mi.csv,PASS
+Sin columnas de identidad: u_resumen_discrepancia_missforest.csv,PASS
+Sin columnas de identidad: u_resumen_missingness_aoo.csv,PASS
+Sin columnas de identidad: u_rutas_analiticas.csv,PASS
+Entrada preservada 01_preprocesamiento_definitivo.ipynb,PASS
+Entrada preservada 02_univariado_definitivo.ipynb,PASS
+Entrada preservada 03_bivariado_definitivo.ipynb,PASS
+Entrada preservada 04_preparacion_genetica_definitivo.ipynb,PASS
+Entrada preservada salidas\genetica_panel_nuevo_MI_integrado\manifiesto_ejecucion_integrada.json,PASS
+Entrada preservada salidas\base_full.pkl,PASS
+Entrada preservada salidas\base_aoo.pkl,PASS
+Entrada preservada salidas\inventario.pkl,PASS
+Entrada preservada salidas\objetos_preprocesamiento.pkl,PASS
+Entrada preservada salidas\imputacion_aoo\base_full_aoo_mice_long.pkl,PASS
+Entrada preservada salidas\imputacion_aoo\reproducibilidad_imputacion_aoo.json,PASS
+Entrada preservada salidas\univariado_mi\comparacion_aoo_observado_vs_mi.csv,PASS
+Entrada preservada salidas\univariado_mi\descriptivos_aoo_por_imputacion.csv,PASS
+Entrada preservada salidas\univariado_mi\resumen_descriptivos_aoo_mi.csv,PASS
+Entrada preservada salidas\univariado_mi\media_aoo_rubin.csv,PASS
+Entrada preservada salidas\univariado_mi\outliers_aoo_por_imputacion.csv,PASS
+Entrada preservada salidas\univariado_mi\resumen_missingness_aoo.csv,PASS
+Entrada preservada salidas\univariado_mi\rutas_analiticas.csv,PASS
+Entrada preservada salidas\univariado_mi\resumen_discrepancia_missforest.csv,PASS
+Entrada preservada salidas\univariado_mi\distribucion_aoo_observado_vs_mi.png,PASS
+Entrada preservada salidas\univariado_mi\boxplots_aoo_por_imputacion.png,PASS
+Entrada preservada salidas\auditoria_fuentes_paciente.csv,PASS
+Entrada preservada salidas\bivariado_mi_revisado\resultados_bivariados_observados.csv,PASS
+Entrada preservada salidas\bivariado_mi_revisado\resumen_estabilidad_bivariada_mi.csv,PASS
+Entrada preservada salidas\bivariado_mi_revisado\fdr_por_imputacion.csv,PASS
+Entrada preservada salidas\bivariado_mi_revisado\resumen_global_bivariado_mi.csv,PASS
+Entrada preservada salidas\bivariado_mi_revisado\dunn_observado.csv,PASS
+Entrada preservada salidas\bivariado_mi_revisado\resumen_dunn_mi.csv,PASS
+Entrada preservada salidas\bivariado_mi_revisado\motivos_no_evaluacion.csv,PASS
+Entrada preservada salidas\bivariado_mi_revisado\senales_emergentes_mi.csv,PASS
+Entrada preservada salidas\bivariado_mi_revisado\hipertension_contraste_codigos.csv,PASS
+Entrada preservada salidas\bivariado_mi_revisado\auditoria_predictores_m1b.csv,PASS
+Entrada preservada salidas\bivariado_mi_revisado\auditoria_participacion_senales_m1b.csv,PASS
+Entrada preservada salidas\bivariado_mi_revisado\concordancia_edades_fuentes.csv,PASS
+Entrada preservada salidas\genetica_panel_nuevo_MI_integrado\gwas\ejecucion_9rw2nf6n\evaluacion_covariables.csv,PASS
+Entrada preservada salidas\genetica_panel_nuevo_MI_integrado\comparacion_paneles_estructura.csv,PASS
+Entrada preservada salidas\genetica_panel_nuevo_MI_integrado\qc_comparado.csv,PASS
+Entrada preservada salidas\genetica_panel_nuevo_MI_integrado\qc_informado_y_fuentes.csv,PASS
+Entrada preservada salidas\genetica_panel_nuevo_MI_integrado\denominadores_integrados.csv,PASS
+Entrada preservada salidas\genetica_panel_nuevo_MI_integrado\comparacion_clinica_extremos.csv,PASS
+Entrada preservada salidas\genetica_panel_nuevo_MI_integrado\qc_snp_nuevo_genotipados.csv,PASS
+Entrada preservada salidas\genetica_panel_nuevo_MI_integrado\trazabilidad_todas_muestras.csv,PASS
+Entrada preservada salidas\genetica_panel_nuevo_MI_integrado\grm\ejecucion_juoce88v\grm_ids.csv,PASS
+Entrada preservada salidas\genetica_panel_nuevo_MI_integrado\pca\ejecucion_p8hyn8hn\pca_individuos.csv,PASS
+Entrada preservada salidas\genetica_panel_nuevo_MI_integrado\pca\ejecucion_p8hyn8hn\pca_varianza_explicada.csv,PASS
+Entrada preservada salidas\genetica_panel_nuevo_MI_integrado\pca\ejecucion_p8hyn8hn\evaluacion_estadistica_pcs.csv,PASS
+Entrada preservada salidas\genetica_panel_nuevo_MI_integrado\rastreo_clinico_extremos.csv,PASS
+Entrada preservada salidas\genetica_panel_nuevo_MI_integrado\seleccion_marcadores_estructura.csv,PASS
+Entrada preservada salidas\genetica_panel_nuevo_MI_integrado\dosis_snps.npy,PASS
+Entrada preservada salidas\genetica_panel_nuevo_MI_integrado\grm\ejecucion_juoce88v\grm_todos.npy,PASS
+Entrada preservada salidas\genetica_panel_nuevo_MI_integrado\grm\ejecucion_juoce88v\resumen_grm.csv,PASS
+Entrada preservada salidas\genetica_panel_nuevo_MI_integrado\grm\ejecucion_juoce88v\grm_aoo.npy,PASS
+Entrada preservada salidas\genetica_panel_nuevo_MI_integrado\pares_grm_alta_nuevos.csv,PASS
+Entrada preservada salidas\genetica_panel_nuevo_MI_integrado\gwas\ejecucion_9rw2nf6n\resumen_grm_loco.csv,PASS
+Entrada preservada salidas\genetica_panel_nuevo_MI_integrado\gwas\ejecucion_9rw2nf6n\modelo_nulo_lmm.csv,PASS
+Entrada preservada salidas\genetica_panel_nuevo_MI_integrado\gwas\ejecucion_9rw2nf6n\nulos_globales_pcs.csv,PASS
+Entrada preservada salidas\genetica_panel_nuevo_MI_integrado\gwas\ejecucion_9rw2nf6n\perfil_reml.csv,PASS
+Entrada preservada salidas\genetica_panel_nuevo_MI_integrado\gwas\ejecucion_9rw2nf6n\resumen_gwas.csv,PASS
+Entrada preservada salidas\genetica_panel_nuevo_MI_integrado\gwas\ejecucion_9rw2nf6n\resumen_muestras_modelos.csv,PASS
+Entrada preservada salidas\genetica_panel_nuevo_MI_integrado\gwas\ejecucion_9rw2nf6n\comparacion_sensibilidad.csv,PASS
+Entrada preservada salidas\genetica_panel_nuevo_MI_integrado\gwas\ejecucion_9rw2nf6n\comparacion_AB_muestra_comun.csv,PASS
+Entrada preservada salidas\genetica_panel_nuevo_MI_integrado\gwas\ejecucion_9rw2nf6n\vif_modelo_B.csv,PASS
+Entrada preservada salidas\genetica_panel_nuevo_MI_integrado\gwas\ejecucion_9rw2nf6n\gwas_top_variantes.csv,PASS
+Entrada preservada salidas\genetica_panel_nuevo_MI_integrado\gwas\ejecucion_9rw2nf6n\gwas_principal.csv,PASS
+Entrada preservada salidas\genetica_panel_nuevo_MI_integrado\gwas\ejecucion_9rw2nf6n\gwas_sensibilidad_3pcs.csv,PASS
+Entrada preservada salidas\genetica_panel_nuevo_MI_integrado\gwas\ejecucion_9rw2nf6n\gwas_sensibilidad_10pcs.csv,PASS
+Entrada preservada salidas\genetica_panel_nuevo_MI_integrado\gwas\ejecucion_9rw2nf6n\gwas_referencia_A_comparable.csv,PASS
+Entrada preservada salidas\genetica_panel_nuevo_MI_integrado\apoe_gwas_observado.csv,PASS
+Entrada preservada salidas\genetica_panel_nuevo_MI_integrado\apoe_combinaciones_no_faseadas.csv,PASS
+Entrada preservada salidas\genetica_panel_nuevo_MI_integrado\resumen_MI_por_imputacion.csv,PASS
+Entrada preservada salidas\genetica_panel_nuevo_MI_integrado\comparacion_observado_MI.csv,PASS
+Entrada preservada salidas\genetica_panel_nuevo_MI_integrado\auditoria_21_aoo_imputados.csv,PASS

@@ -1,0 +1,7 @@
+grupo_redundante,variable_conservada,variables_excluidas_modelo,rho_aprox,motivo
+Denominación - TBN,neuro__tbn_total,neuro__tbn_espontanea,0.972,Correlación muy alta; se conserva una medida resumen.
+Memoria verbal - TAAV Rey,neuro__taavrey5,"neuro__taavrey2, neuro__taavrey3, neuro__taavrey4",0.806–0.860,Alta correlación entre ensayos de aprendizaje; se conserva un ensayo representativo.
+Fluidez verbal fonológica,neuro__fvff,"neuro__fvfa, neuro__fvfs",0.840–0.857,Alta redundancia entre tareas fonológicas.
+Stroop,neuro__tscol,"neuro__tspal, neuro__tspalcol",0.799–0.905,Alta correlación entre condiciones de la prueba.
+Memoria semántica,neuro__tsmydoral,neuro__tsmyd_escr,0.923,Las versiones oral y escrita presentan información muy similar.
+Funcionalidad,neuro__barthel,neuro__ikatz,-0.924,Alta relación inversa; ambas escalas reflejan dimensiones funcionales relacionadas.

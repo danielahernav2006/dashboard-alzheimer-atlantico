@@ -1,0 +1,53 @@
+{
+  "app": "dashboard_alzheimer/dashboard_alzheimer/app.py",
+  "paginas_actualizadas": [
+    "asoc_covariables.py",
+    "asoc_gwas.py",
+    "asoc_modelos.py",
+    "asoc_sensibilidad.py",
+    "asoc_variantes.py",
+    "cierre_conclusiones.py",
+    "cierre_metodologia.py",
+    "contexto_literatura.py",
+    "contexto_problema.py",
+    "datos_bivariado.py",
+    "datos_calidad.py",
+    "datos_cohorte.py",
+    "datos_univariado.py",
+    "gen_grm.py",
+    "gen_loco.py",
+    "gen_pca.py",
+    "gen_preparacion.py",
+    "inicio.py"
+  ],
+  "archivos_principales": [
+    "prepare_dashboard_data.py",
+    "utils/data.py",
+    "components/ui.py",
+    "app.py",
+    "requirements.txt",
+    "README.md",
+    "tests/verify_dashboard.py"
+  ],
+  "controles_datos_PASS": 197,
+  "paginas_AppTest_PASS": 18,
+  "interacciones_PASS": 12,
+  "paginas_Chrome_PASS": 8,
+  "fuentes_intactas_verificadas": 72,
+  "exportaciones_faltantes": [],
+  "recalculo_notebooks_imputacion_GWAS": false,
+  "url_local": "http://127.0.0.1:8502",
+  "pendientes_documentales": [
+    "Certificado de ensamblaje",
+    "QC/GCR/HWE y poda del proveedor del panel nuevo",
+    "Fase APOE y trazabilidad técnica de pares de similitud elevada"
+  ],
+  "entorno_pruebas": {
+    "Python": "3.9.25 (entornos existentes compatibles)",
+    "Streamlit": "1.50.0",
+    "Plotly": "6.6.0"
+  },
+  "redisenio": "redisenio_dashboard.json",
+  "diseno": "Diseño anterior restaurado",
+  "registro_diseno_vigente": "restauracion_diseno.json"
+}
